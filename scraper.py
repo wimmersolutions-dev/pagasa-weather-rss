@@ -33,11 +33,15 @@ def extract_weather(html):
 
     # Extract Synopsis
     match = re.search(
-        r"Synopsis\s+(.*?)(?=\s+Forecast Weather Conditions)",
+        r"Synopsis\s*"
+        r"(.*?)"
+        r"(?=\s*(?:Tropical Cyclone Information|"
+        r"Tropical Cyclone|"
+        r"TC Information|"
+        r"Forecast Weather Conditions))",
         text,
         re.DOTALL | re.IGNORECASE
     )
-
     if not match:
         raise RuntimeError("Could not find PAGASA Synopsis.")
 
