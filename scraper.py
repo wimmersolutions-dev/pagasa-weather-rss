@@ -115,7 +115,7 @@ def extract_weather(html):
 
         issued = ""
 
-    # ========================================================
+        # ========================================================
     # FIND FORECAST WEATHER CONDITIONS SECTION
     # ========================================================
 
@@ -127,11 +127,46 @@ def extract_weather(html):
     )
 
     if not forecast_heading:
-
         raise RuntimeError(
             "Could not find Forecast Weather Conditions heading."
         )
 
+    print("\n========== FORECAST DEBUG ==========\n")
+
+    print(
+        "Found heading:",
+        repr(forecast_heading.strip())
+    )
+
+    # Show the HTML structure around the heading.
+    current = forecast_heading.parent
+
+    for level in range(1, 7):
+
+        if current is None:
+            break
+
+        print(
+            f"\n--- Parent level {level}: "
+            f"{current.name} ---"
+        )
+
+        print(
+            str(current)[:3000]
+        )
+
+        current = current.parent
+
+    print(
+        "\n========== END FORECAST DEBUG ==========\n"
+    )
+
+    raise RuntimeError(
+        "Diagnostic run complete. "
+        "Check the GitHub Action log above."
+    )
+
+    
     # ========================================================
     # FIND THE TABLE
     # ========================================================
