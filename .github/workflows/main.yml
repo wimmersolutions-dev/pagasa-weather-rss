@@ -1,13 +1,26 @@
-name: PAGASA Weather Test
+name: PAGASA Weather
 
 on:
   workflow_dispatch:
 
 jobs:
-  test:
+  scrape:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Say hello
-        run: echo "PAGASA weather bot is working!"
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Run PAGASA scraper
+        run: |
+          python scraper.py
  
