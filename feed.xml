@@ -4,26 +4,70 @@
 
     <channel>
 
-        <title>
-            PAGASA Daily Weather Synopsis
-        </title>
+        <title>PAGASA Daily Weather</title>
 
-        <link>
-            https://pagasa.dost.gov.ph/weather
-        </link>
+        <link>https://pagasa.dost.gov.ph/weather</link>
 
         <description>
             Daily weather information from PAGASA
         </description>
 
         <lastBuildDate>
-            Mon, 24 Aug 2026 15:09:16 +0000
+            Mon, 24 Aug 2026 15:31:38 +0000
         </lastBuildDate>
 
         
         <item>
             <title>PAGASA Daily Weather - 4:00 PM, 24 August 2026</title>
+            <description>[SYNOPSIS]
 
+At 3:00 PM today, the center of the eye of Typhoon "OBET" {SAUDEL} was estimated based on all available data at 1,375 km East Northeast of Extreme Northern Luzon (24.5°N, 134.6°E) with maximum sustained winds of 165 km/h near the center and gustiness of up to 205 km/h. It is moving West Northwestward at 30 km/h. Southwest Monsoon affecting Luzon.
+
+
+[FORECAST WEATHER CONDITIONS]
+
+1. PLACE:
+Metro Manila, Ilocos Region, Cordillera Administrative Region, Cagayan Valley, Central Luzon, Cavite, Batangas, and Rizal
+
+WEATHER CONDITION:
+Cloudy skies with scattered rains and thunderstorms
+
+CAUSED BY:
+Southwest Monsoon
+
+IMPACTS:
+Possible flash floods or landslides due to moderate to at times heavy rains
+
+2. PLACE:
+Western Visayas, Negros Island Region, and the rest of Luzon
+
+WEATHER CONDITION:
+Partly cloudy to cloudy skies with isolated rainshowers or thunderstorms
+
+CAUSED BY:
+Southwest Monsoon
+
+IMPACTS:
+Possible flash floods or landslides during severe thunderstorms
+
+3. PLACE:
+The rest of the country
+
+WEATHER CONDITION:
+Partly cloudy to cloudy skies with isolated rainshowers or thunderstorms
+
+CAUSED BY:
+Localized Thunderstorms
+
+IMPACTS:
+Possible flash floods or landslides during severe thunderstorms</description>
+            <link>https://pagasa.dost.gov.ph/weather</link>
+            <guid isPermaLink="false">pagasa-4:00 PM, 24 August 2026</guid>
+            <pubDate>Mon, 24 Aug 2026 15:31:38 +0000</pubDate>
+        </item>
+        
+        <item>
+            <title>PAGASA Daily Weather - 4:00 PM, 24 August 2026</title>
             <description>
                 [SYNOPSIS]
 
@@ -33,13 +77,10 @@ At 3:00 PM today, the center of the eye of Typhoon "OBET" {SAUDEL} was estimated
 
 Place Weather Condition Caused By Impacts Metro Manila, Ilocos Region, Cordillera Administrative Region, Cagayan Valley, Central Luzon, Cavite, Batangas, and Rizal Cloudy skies with scattered rains and thunderstorms Southwest Monsoon Possible flash floods or landslides due to moderate to at times heavy rains Western Visayas, Negros Island Region, and the rest of Luzon Partly cloudy to cloudy skies with isolated rainshowers or thunderstorms Southwest Monsoon Possible flash floods or landslides during severe thunderstorms The rest of the country Partly cloudy to cloudy skies with isolated rainshowers or thunderstorms Localized Thunderstorms Possible flash floods or landslides during severe thunderstorms
             </description>
-
             <link>https://pagasa.dost.gov.ph/weather</link>
-
             <guid isPermaLink="false">
                 pagasa-4:00 PM, 24 August 2026
             </guid>
-
             <pubDate>
                 Mon, 24 Aug 2026 15:09:16 +0000
             </pubDate>
@@ -47,17 +88,13 @@ Place Weather Condition Caused By Impacts Metro Manila, Ilocos Region, Cordiller
         
         <item>
             <title>PAGASA Daily Weather - 4:00 PM, 24 August 2026</title>
-
             <description>
                 At 3:00 PM today, the center of the eye of Typhoon "OBET" {SAUDEL} was estimated based on all available data at 1,375 km East Northeast of Extreme Northern Luzon (24.5°N, 134.6°E) with maximum sustained winds of 165 km/h near the center and gustiness of up to 205 km/h. It is moving West Northwestward at 30 km/h. Southwest Monsoon affecting Luzon.
             </description>
-
             <link>https://pagasa.dost.gov.ph/weather</link>
-
             <guid isPermaLink="false">
                 4:00 PM, 24 August 2026
             </guid>
-
             <pubDate>
                 Mon, 24 Aug 2026 14:55:48 +0000
             </pubDate>
