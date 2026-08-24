@@ -9,10 +9,7 @@ import xml.etree.ElementTree as ET
 
 
 PAGASA_URL = "https://pagasa.dost.gov.ph/weather"
-
 OUTPUT_FILE = "feed.xml"
-
-# Keep the latest 7 reports in the RSS feed.
 MAX_ITEMS = 7
 
 
@@ -21,10 +18,6 @@ MAX_ITEMS = 7
 # ============================================================
 
 def clean_text(text):
-    """
-    Clean excessive whitespace from text.
-    """
-
     return re.sub(r"\s+", " ", text).strip()
 
 
@@ -33,9 +26,6 @@ def clean_text(text):
 # ============================================================
 
 def get_pagasa_page():
-    """
-    Download the PAGASA weather page.
-    """
 
     response = requests.get(
         PAGASA_URL,
@@ -51,7 +41,7 @@ def get_pagasa_page():
 
 
 # ============================================================
-# EXTRACT WEATHER INFORMATION
+# EXTRACT WEATHER
 # ============================================================
 
 def extract_weather(html):
@@ -61,18 +51,14 @@ def extract_weather(html):
         "html.parser"
     )
 
-    # --------------------------------------------------------
-    # Convert page to text for Synopsis / Issued time.
-    # --------------------------------------------------------
+    # ========================================================
+    # SYNOPSIS
+    # ========================================================
 
     text = soup.get_text(
         "\n",
         strip=True
     )
-
-    # ========================================================
-    # SYNOPSIS
-    # ========================================================
 
     synopsis_match = re.search(
         r"Synopsis\s*"
@@ -105,112 +91,61 @@ def extract_weather(html):
         re.DOTALL | re.IGNORECASE
     )
 
-    if issued_match:
+    issued = (
+        clean_text(issued_match.group(1))
+        if issued_match
+        else ""
+    )
 
-        issued = clean_text(
-            issued_match.group(1)
-        )
-
-    else:
-
-        issued = ""
-
-        # ========================================================
-    # FIND FORECAST WEATHER CONDITIONS SECTION
+    # ========================================================
+    # FIND FORECAST WEATHER CONDITIONS HEADING
     # ========================================================
 
     forecast_heading = soup.find(
         string=re.compile(
-            r"Forecast Weather Conditions",
+            r"^\s*Forecast Weather Conditions\s*$",
             re.IGNORECASE
         )
     )
 
     if not forecast_heading:
+
         raise RuntimeError(
             "Could not find Forecast Weather Conditions heading."
         )
 
-    print("\n========== FORECAST DEBUG ==========\n")
-
-    print(
-        "Found heading:",
-        repr(forecast_heading.strip())
-    )
-
-    # Show the HTML structure around the heading.
-    current = forecast_heading.parent
-
-    for level in range(1, 7):
-
-        if current is None:
-            break
-
-        print(
-            f"\n--- Parent level {level}: "
-            f"{current.name} ---"
-        )
-
-        print(
-            str(current)[:3000]
-        )
-
-        current = current.parent
-
-    print(
-        "\n========== END FORECAST DEBUG ==========\n"
-    )
-
-    raise RuntimeError(
-        "Diagnostic run complete. "
-        "Check the GitHub Action log above."
-    )
-
-    
     # ========================================================
-    # FIND THE TABLE
+    # FIND THE TABLE ASSOCIATED WITH THE HEADING
     # ========================================================
 
     forecast_table = None
 
-    # First attempt:
-    # Check if the heading is inside a table.
+    # Walk through the heading's parents.
+    # We stop as soon as we find the first table.
+    current = forecast_heading.parent
 
-    parent_table = forecast_heading.find_parent(
-        "table"
-    )
+    while current is not None:
 
-    if parent_table:
+        table = current.find(
+            "table"
+        )
 
-        forecast_table = parent_table
+        if table is not None:
 
-    # Second attempt:
-    # Find the next table after the heading.
+            forecast_table = table
+            break
 
-    if forecast_table is None:
+        current = current.parent
 
-        parent = forecast_heading.parent
-
-        if parent:
-
-            forecast_table = parent.find_next(
-                "table"
-            )
-
-    # Third attempt:
-    # Search nearby elements for the first table.
+    # If the heading itself is not inside the container
+    # containing the table, look at the next table after
+    # the heading.
 
     if forecast_table is None:
 
-        for element in forecast_heading.parents:
-
-            forecast_table = element.find_next(
-                "table"
-            )
-
-            if forecast_table:
-
-                break
+        forecast_table = forecast_heading.find_next(
+            "table"
+        )
 
     if forecast_table is None:
 
@@ -218,8 +153,12 @@ def extract_weather(html):
             "Could not find Forecast Weather Conditions table."
         )
 
+    print(
+        "Forecast Weather Conditions table found."
+    )
+
     # ========================================================
-    # READ TABLE ROWS
+    # READ ONLY THIS TABLE
     # ========================================================
 
     rows = forecast_table.find_all(
@@ -246,21 +185,12 @@ def extract_weather(html):
             )
 
             if value:
-
-                values.append(
-                    value
-                )
-
-        # Ignore empty rows.
+                values.append(value)
 
         if not values:
-
             continue
 
-        # ----------------------------------------------------
-        # Skip table header.
-        # ----------------------------------------------------
-
+        # Skip the header row.
         header_text = " ".join(
             value.lower()
             for value in values
@@ -270,7 +200,6 @@ def extract_weather(html):
             "place" in header_text
             and "weather" in header_text
         ):
-
             continue
 
         forecast_rows.append(
@@ -284,10 +213,10 @@ def extract_weather(html):
         )
 
     # ========================================================
-    # FORMAT FORECAST
+    # FORMAT FORECAST TABLE
     # ========================================================
 
-    formatted_forecast = []
+    formatted_rows = []
 
     for index, row in enumerate(
         forecast_rows,
@@ -306,7 +235,7 @@ def extract_weather(html):
             else ""
         )
 
-        cause = (
+        caused_by = (
             row[2]
             if len(row) > 2
             else ""
@@ -324,17 +253,17 @@ def extract_weather(html):
             f"WEATHER CONDITION:\n"
             f"{weather}\n\n"
             f"CAUSED BY:\n"
-            f"{cause}\n\n"
+            f"{caused_by}\n\n"
             f"IMPACTS:\n"
             f"{impacts}"
         )
 
-        formatted_forecast.append(
+        formatted_rows.append(
             formatted_row
         )
 
     forecast = "\n\n".join(
-        formatted_forecast
+        formatted_rows
     )
 
     return (
@@ -355,7 +284,6 @@ def load_existing_items():
     )
 
     if not path.exists():
-
         return []
 
     try:
@@ -372,38 +300,32 @@ def load_existing_items():
             "./channel/item"
         ):
 
-            title = item.findtext(
-                "title",
-                ""
-            )
-
-            description = item.findtext(
-                "description",
-                ""
-            )
-
-            link = item.findtext(
-                "link",
-                PAGASA_URL
-            )
-
-            guid = item.findtext(
-                "guid",
-                ""
-            )
-
-            pub_date = item.findtext(
-                "pubDate",
-                ""
-            )
-
             items.append(
                 {
-                    "title": title,
-                    "description": description,
-                    "link": link,
-                    "guid": guid,
-                    "pubDate": pub_date
+                    "title": item.findtext(
+                        "title",
+                        ""
+                    ),
+
+                    "description": item.findtext(
+                        "description",
+                        ""
+                    ),
+
+                    "link": item.findtext(
+                        "link",
+                        PAGASA_URL
+                    ),
+
+                    "guid": item.findtext(
+                        "guid",
+                        ""
+                    ),
+
+                    "pubDate": item.findtext(
+                        "pubDate",
+                        ""
+                    )
                 }
             )
 
@@ -420,7 +342,7 @@ def load_existing_items():
 
 
 # ============================================================
-# GENERATE RSS FEED
+# GENERATE RSS
 # ============================================================
 
 def generate_rss(
@@ -433,27 +355,20 @@ def generate_rss(
         timezone.utc
     )
 
-    # --------------------------------------------------------
-    # Unique ID for the PAGASA report.
-    # --------------------------------------------------------
-
+    # Unique ID based on PAGASA issue time.
     guid = (
         f"pagasa-{clean_text(issued)}"
     )
 
-    # --------------------------------------------------------
-    # RSS description.
-    # --------------------------------------------------------
-
+    # Keep Synopsis and Forecast clearly separated.
     description = (
         "[SYNOPSIS]\n\n"
-        f"{synopsis}\n\n"
+        f"{synopsis}\n\n\n"
         "[FORECAST WEATHER CONDITIONS]\n\n"
         f"{forecast}"
     )
 
     new_item = {
-
         "title":
             f"PAGASA Daily Weather - {issued}",
 
@@ -470,10 +385,7 @@ def generate_rss(
             format_datetime(now)
     }
 
-    # --------------------------------------------------------
-    # Load existing RSS items.
-    # --------------------------------------------------------
-
+    # Load existing RSS history.
     existing_items = (
         load_existing_items()
     )
@@ -483,10 +395,7 @@ def generate_rss(
         for item in existing_items
     }
 
-    # --------------------------------------------------------
-    # Add new item if it doesn't already exist.
-    # --------------------------------------------------------
-
+    # Add only if this report is new.
     if guid not in existing_guids:
 
         existing_items.insert(
@@ -504,16 +413,13 @@ def generate_rss(
             "This PAGASA report already exists."
         )
 
-    # --------------------------------------------------------
-    # Keep only the latest 7 reports.
-    # --------------------------------------------------------
-
+    # Keep latest 7 reports.
     existing_items = (
         existing_items[:MAX_ITEMS]
     )
 
     # ========================================================
-    # BUILD RSS XML
+    # BUILD XML
     # ========================================================
 
     items_xml = ""
@@ -523,20 +429,10 @@ def generate_rss(
         items_xml += f"""
         <item>
             <title>{escape(item["title"])}</title>
-
-            <description>
-                {escape(item["description"])}
-            </description>
-
+            <description>{escape(item["description"])}</description>
             <link>{escape(item["link"])}</link>
-
-            <guid isPermaLink="false">
-                {escape(item["guid"])}
-            </guid>
-
-            <pubDate>
-                {escape(item["pubDate"])}
-            </pubDate>
+            <guid isPermaLink="false">{escape(item["guid"])}</guid>
+            <pubDate>{escape(item["pubDate"])}</pubDate>
         </item>
         """
 
@@ -546,13 +442,9 @@ def generate_rss(
 
     <channel>
 
-        <title>
-            PAGASA Daily Weather
-        </title>
+        <title>PAGASA Daily Weather</title>
 
-        <link>
-            {PAGASA_URL}
-        </link>
+        <link>{PAGASA_URL}</link>
 
         <description>
             Daily weather information from PAGASA
@@ -597,10 +489,6 @@ def main():
 
     print()
 
-    # --------------------------------------------------------
-    # Download PAGASA.
-    # --------------------------------------------------------
-
     print(
         "Fetching PAGASA..."
     )
@@ -613,20 +501,12 @@ def main():
 
     print()
 
-    # --------------------------------------------------------
-    # Extract information.
-    # --------------------------------------------------------
-
-    (
-        issued,
-        synopsis,
-        forecast
-    ) = extract_weather(
-        html
+    issued, synopsis, forecast = (
+        extract_weather(html)
     )
 
     # ========================================================
-    # DISPLAY SYNOPSIS
+    # SHOW SYNOPSIS
     # ========================================================
 
     print(
@@ -649,7 +529,7 @@ def main():
     print()
 
     # ========================================================
-    # DISPLAY FORECAST
+    # SHOW FORECAST
     # ========================================================
 
     print(
@@ -669,7 +549,7 @@ def main():
     )
 
     # ========================================================
-    # CREATE RSS
+    # GENERATE RSS
     # ========================================================
 
     generate_rss(
@@ -689,10 +569,6 @@ def main():
         OUTPUT_FILE
     )
 
-
-# ============================================================
-# START PROGRAM
-# ============================================================
 
 if __name__ == "__main__":
 
