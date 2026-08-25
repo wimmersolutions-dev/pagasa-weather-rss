@@ -351,16 +351,87 @@ def generate_rss(
     forecast
 ):
 
+    # ========================================================
+    # PARSE PAGASA ISSUED TIME
+    # ========================================================
+
+    # PAGASA issued value is expected to look something like:
+    # "4:00 PM, 25 August 2026"
+    #
+    # If parsing fails, fall back to the current UTC time.
+
     now = datetime.now(
         timezone.utc
     )
 
-    # Unique ID based on PAGASA issue time.
-    guid = (
-        f"pagasa-{clean_text(issued)}"
-    )
+    try:
 
-    # Keep Synopsis and Forecast clearly separated.
+        issued_dt = datetime.strptime(
+            clean_text(issued),
+            "%I:%M %p, %d %B %Y"
+        )
+
+        # PAGASA time is Philippine Time (UTC+8)
+        from datetime import timedelta
+
+        issued_dt = (
+            issued_dt
+            - timedelta(hours=8)
+        )
+
+        issued_dt = issued_dt.replace(
+            tzinfo=timezone.utc
+        )
+
+        pub_date = format_datetime(
+            issued_dt
+        )
+
+    except ValueError:
+
+        print(
+            "Could not parse PAGASA issued time."
+        )
+
+        print(
+            "Using current UTC time instead."
+        )
+
+        pub_date = format_datetime(
+            now
+        )
+
+    # ========================================================
+    # UNIQUE ID
+    # ========================================================
+
+    # Use the PAGASA bulletin's issue time as its identity.
+    #
+    # Example:
+    # pagasa-2026-08-25-1600
+
+    try:
+
+        issued_dt_local = datetime.strptime(
+            clean_text(issued),
+            "%I:%M %p, %d %B %Y"
+        )
+
+        guid = (
+            "pagasa-"
+            f"{issued_dt_local:%Y-%m-%d-%H%M}"
+        )
+
+    except ValueError:
+
+        guid = (
+            f"pagasa-{clean_text(issued)}"
+        )
+
+    # ========================================================
+    # DESCRIPTION
+    # ========================================================
+
     description = (
         "[SYNOPSIS]\n\n"
         f"{synopsis}\n\n\n"
@@ -382,10 +453,13 @@ def generate_rss(
             guid,
 
         "pubDate":
-            format_datetime(now)
+            pub_date
     }
 
-    # Load existing RSS history.
+    # ========================================================
+    # LOAD EXISTING RSS HISTORY
+    # ========================================================
+
     existing_items = (
         load_existing_items()
     )
@@ -395,7 +469,10 @@ def generate_rss(
         for item in existing_items
     }
 
-    # Add only if this report is new.
+    # ========================================================
+    # ADD ONLY NEW PAGASA BULLETINS
+    # ========================================================
+
     if guid not in existing_guids:
 
         existing_items.insert(
@@ -404,22 +481,51 @@ def generate_rss(
         )
 
         print(
-            "New PAGASA report added."
+            "New PAGASA report added:",
+            guid
         )
 
     else:
 
         print(
-            "This PAGASA report already exists."
+            "This PAGASA report already exists:",
+            guid
         )
 
-    # Keep latest 7 reports.
+    # ========================================================
+    # SORT BY PUBDATE
+    # ========================================================
+
+    def get_pub_date(item):
+
+        try:
+
+            return datetime.strptime(
+                item["pubDate"],
+                "%a, %d %b %Y %H:%M:%S %z"
+            )
+
+        except ValueError:
+
+            return datetime.min.replace(
+                tzinfo=timezone.utc
+            )
+
+    existing_items.sort(
+        key=get_pub_date,
+        reverse=True
+    )
+
+    # ========================================================
+    # KEEP LATEST 7 REPORTS
+    # ========================================================
+
     existing_items = (
         existing_items[:MAX_ITEMS]
     )
 
     # ========================================================
-    # BUILD XML
+    # BUILD RSS ITEMS
     # ========================================================
 
     items_xml = ""
@@ -436,12 +542,13 @@ def generate_rss(
         </item>
         """
 
+    # ========================================================
+    # BUILD COMPLETE RSS 2.0 DOCUMENT
+    # ========================================================
+
     rss = f"""<?xml version="1.0" encoding="UTF-8"?>
-
 <rss version="2.0">
-
     <channel>
-
         <title>PAGASA Daily Weather</title>
 
         <link>{PAGASA_URL}</link>
@@ -450,16 +557,17 @@ def generate_rss(
             Daily weather information from PAGASA
         </description>
 
-        <lastBuildDate>
-            {format_datetime(now)}
-        </lastBuildDate>
+        <lastBuildDate>{format_datetime(now)}</lastBuildDate>
 
         {items_xml}
 
     </channel>
-
 </rss>
 """
+
+    # ========================================================
+    # WRITE FEED
+    # ========================================================
 
     Path(
         OUTPUT_FILE
@@ -468,6 +576,13 @@ def generate_rss(
         encoding="utf-8"
     )
 
+    print(
+        "RSS feed generated successfully."
+    )
+
+
+
+    
 
 # ============================================================
 # MAIN
