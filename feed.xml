@@ -13,9 +13,58 @@
         </description>
 
         <lastBuildDate>
-            Mon, 24 Aug 2026 15:31:38 +0000
+            Tue, 25 Aug 2026 03:15:58 +0000
         </lastBuildDate>
 
+        
+        <item>
+            <title>PAGASA Daily Weather - 4:00 AM, 25 August 2026</title>
+            <description>[SYNOPSIS]
+
+Southwest Monsoon affecting Luzon.
+
+
+[FORECAST WEATHER CONDITIONS]
+
+1. PLACE:
+Metro Manila, Ilocos Region, Cordillera Administrative Region, Cagayan Valley, Central Luzon, Cavite, Batangas, and Rizal
+
+WEATHER CONDITION:
+Cloudy skies with scattered rains and thunderstorms
+
+CAUSED BY:
+Southwest Monsoon
+
+IMPACTS:
+Possible flash floods or landslides due to moderate to at times heavy rains
+
+2. PLACE:
+The rest of Luzon
+
+WEATHER CONDITION:
+Partly cloudy to cloudy skies with isolated rainshowers or thunderstorms
+
+CAUSED BY:
+Southwest Monsoon
+
+IMPACTS:
+Possible flash floods or landslides during severe thunderstorms
+
+3. PLACE:
+The rest of the country
+
+WEATHER CONDITION:
+Partly cloudy to cloudy skies with isolated rainshowers or thunderstorms
+
+CAUSED BY:
+Localized Thunderstorms
+
+IMPACTS:
+Possible flash floods or landslides during severe thunderstorms</description>
+            <link>https://pagasa.dost.gov.ph/weather</link>
+            <guid isPermaLink="false">pagasa-4:00 AM, 25 August 2026</guid>
+            <pubDate>Tue, 25 Aug 2026 03:15:58 +0000</pubDate>
+        </item>
         
         <item>
             <title>PAGASA Daily Weather - 4:00 PM, 24 August 2026</title>
