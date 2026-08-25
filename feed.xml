@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <rss version="2.0">
-
     <channel>
-
         <title>PAGASA Daily Weather</title>
 
         <link>https://pagasa.dost.gov.ph/weather</link>
@@ -12,9 +9,7 @@
             Daily weather information from PAGASA
         </description>
 
-        <lastBuildDate>
-            Tue, 25 Aug 2026 12:46:20 +0000
-        </lastBuildDate>
+        <lastBuildDate>Tue, 25 Aug 2026 12:57:44 +0000</lastBuildDate>
 
         
         <item>
@@ -76,6 +71,67 @@ Possible flash floods or landslides during severe thunderstorms</description>
             <link>https://pagasa.dost.gov.ph/weather</link>
             <guid isPermaLink="false">pagasa-4:00 PM, 25 August 2026</guid>
             <pubDate>Tue, 25 Aug 2026 10:17:30 +0000</pubDate>
+        </item>
+        
+        <item>
+            <title>PAGASA Daily Weather - 4:00 PM, 25 August 2026</title>
+            <description>[SYNOPSIS]
+
+Southwest Monsoon affecting Luzon.
+
+
+[FORECAST WEATHER CONDITIONS]
+
+1. PLACE:
+Zambales
+
+WEATHER CONDITION:
+Occasional rains
+
+CAUSED BY:
+Southwest Monsoon
+
+IMPACTS:
+Possible flash floods or landslides due to moderate to heavy rains
+
+2. PLACE:
+Metro Manila, Ilocos Region, Cordillera Administrative Region, Cagayan Valley, the rest of Central Luzon, Cavite, Batangas, Rizal, Occidental Mindoro, Palawan, and Antique
+
+WEATHER CONDITION:
+Cloudy skies with scattered rains and thunderstorms
+
+CAUSED BY:
+Southwest Monsoon
+
+IMPACTS:
+Possible flash floods or landslides due to moderate to at times heavy rains
+
+3. PLACE:
+The rest of Luzon and Western Visayas
+
+WEATHER CONDITION:
+Partly cloudy to cloudy skies with isolated rainshowers or thunderstorms
+
+CAUSED BY:
+Southwest Monsoon
+
+IMPACTS:
+Possible flash floods or landslides during severe thunderstorms
+
+4. PLACE:
+The rest of the country
+
+WEATHER CONDITION:
+Partly cloudy to cloudy skies with isolated rainshowers or thunderstorms
+
+CAUSED BY:
+Localized Thunderstorms
+
+IMPACTS:
+Possible flash floods or landslides during severe thunderstorms</description>
+            <link>https://pagasa.dost.gov.ph/weather</link>
+            <guid isPermaLink="false">pagasa-2026-08-25-1600</guid>
+            <pubDate>Tue, 25 Aug 2026 08:00:00 +0000</pubDate>
         </item>
         
         <item>
@@ -212,5 +268,4 @@ Place Weather Condition Caused By Impacts Metro Manila, Ilocos Region, Cordiller
         
 
     </channel>
-
 </rss>
