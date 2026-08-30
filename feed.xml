@@ -9,8 +9,81 @@
             Daily weather information from PAGASA
         </description>
 
-        <lastBuildDate>Sat, 29 Aug 2026 09:06:35 +0000</lastBuildDate>
+        <lastBuildDate>Sun, 30 Aug 2026 00:04:16 +0000</lastBuildDate>
 
+        
+        <item>
+            <title>PAGASA Daily Weather - 4:00 AM, 30 August 2026</title>
+            <description>[SYNOPSIS]
+
+SYNOPSIS:At 3:00 AM today, a Low Pressure Area (LPA) was estimated based on all available data at 1,340 km East of Extreme Northern Luzon (20.7°N, 134.7°E). Southwest Monsoon affecting Luzon and Visayas.
+
+
+[FORECAST WEATHER CONDITIONS]
+
+1. PLACE:
+Ilocos Sur, Pangasinan, La Union, Benguet, Bataan, Zambales, Tarlac, and Pampanga
+
+WEATHER CONDITION:
+Monsoon rains
+
+CAUSED BY:
+Southwest Monsoon
+
+IMPACTS:
+Possible flash floods or landslides due to heavy to intense rains
+
+2. PLACE:
+Metro Manila, Ilocos Norte, the rest of Cordillera Administrative Region, Nueva Vizcaya, Nueva Ecija, Bulacan, Rizal, Cavite, Laguna, Batangas, and Occidental Mindoro
+
+WEATHER CONDITION:
+Occasional rains
+
+CAUSED BY:
+Southwest Monsoon
+
+IMPACTS:
+Possible flash floods or landslides due to moderate to heavy rains
+
+3. PLACE:
+The rest of Luzon, Western Visayas, and Negros Island Region
+
+WEATHER CONDITION:
+Cloudy skies with scattered rains and thunderstorms
+
+CAUSED BY:
+Southwest Monsoon
+
+IMPACTS:
+Possible flash floods or landslides due to moderate to at times heavy rains
+
+4. PLACE:
+The rest of Visayas
+
+WEATHER CONDITION:
+Partly cloudy to cloudy skies with isolated rainshowers or thunderstorms
+
+CAUSED BY:
+Southwest Monsoon
+
+IMPACTS:
+Possible flash floods or landslides during severe thunderstorms
+
+5. PLACE:
+Mindanao
+
+WEATHER CONDITION:
+Partly cloudy to cloudy skies with isolated rainshowers or thunderstorms
+
+CAUSED BY:
+Localized Thunderstorms
+
+IMPACTS:
+Possible flash floods or landslides during severe thunderstorms</description>
+            <link>https://pagasa.dost.gov.ph/weather</link>
+            <guid isPermaLink="false">pagasa-2026-08-30-0400</guid>
+            <pubDate>Sat, 29 Aug 2026 20:00:00 +0000</pubDate>
+        </item>
         
         <item>
             <title>PAGASA Daily Weather - 4:00 PM, 29 August 2026</title>
@@ -388,67 +461,6 @@ Possible flash floods or landslides during severe thunderstorms</description>
             <link>https://pagasa.dost.gov.ph/weather</link>
             <guid isPermaLink="false">pagasa-4:00 PM, 25 August 2026</guid>
             <pubDate>Tue, 25 Aug 2026 10:17:30 +0000</pubDate>
-        </item>
-        
-        <item>
-            <title>PAGASA Daily Weather - 4:00 PM, 25 August 2026</title>
-            <description>[SYNOPSIS]
-
-Southwest Monsoon affecting Luzon.
-
-
-[FORECAST WEATHER CONDITIONS]
-
-1. PLACE:
-Zambales
-
-WEATHER CONDITION:
-Occasional rains
-
-CAUSED BY:
-Southwest Monsoon
-
-IMPACTS:
-Possible flash floods or landslides due to moderate to heavy rains
-
-2. PLACE:
-Metro Manila, Ilocos Region, Cordillera Administrative Region, Cagayan Valley, the rest of Central Luzon, Cavite, Batangas, Rizal, Occidental Mindoro, Palawan, and Antique
-
-WEATHER CONDITION:
-Cloudy skies with scattered rains and thunderstorms
-
-CAUSED BY:
-Southwest Monsoon
-
-IMPACTS:
-Possible flash floods or landslides due to moderate to at times heavy rains
-
-3. PLACE:
-The rest of Luzon and Western Visayas
-
-WEATHER CONDITION:
-Partly cloudy to cloudy skies with isolated rainshowers or thunderstorms
-
-CAUSED BY:
-Southwest Monsoon
-
-IMPACTS:
-Possible flash floods or landslides during severe thunderstorms
-
-4. PLACE:
-The rest of the country
-
-WEATHER CONDITION:
-Partly cloudy to cloudy skies with isolated rainshowers or thunderstorms
-
-CAUSED BY:
-Localized Thunderstorms
-
-IMPACTS:
-Possible flash floods or landslides during severe thunderstorms</description>
-            <link>https://pagasa.dost.gov.ph/weather</link>
-            <guid isPermaLink="false">pagasa-2026-08-25-1600</guid>
-            <pubDate>Tue, 25 Aug 2026 08:00:00 +0000</pubDate>
         </item>
         
 
