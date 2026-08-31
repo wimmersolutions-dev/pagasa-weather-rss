@@ -9,8 +9,81 @@
             Daily weather information from PAGASA
         </description>
 
-        <lastBuildDate>Mon, 31 Aug 2026 00:04:38 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 31 Aug 2026 09:06:39 +0000</lastBuildDate>
 
+        
+        <item>
+            <title>PAGASA Daily Weather - 4:00 PM, 31 August 2026</title>
+            <description>[SYNOPSIS]
+
+SYNOPSIS:At 3:00 PM today, the center of Tropical Depression "PILANDOK" was estimated based on all available data at 1,145 km East of Extreme Northern Luzon (21.6°N, 132.9°E) with maximum sustained winds of 55 km/h near the center and gustiness of up to 70 km/h. It is moving North Northwestward at 10 km/h. Southwest Monsoon affecting Luzon and the western section of Visayas.
+
+
+[FORECAST WEATHER CONDITIONS]
+
+1. PLACE:
+Ilocos Region, Abra, and Benguet
+
+WEATHER CONDITION:
+Monsoon rains
+
+CAUSED BY:
+Southwest Monsoon
+
+IMPACTS:
+Possible flash floods or landslides due to moderate to heavy with at times intense rains
+
+2. PLACE:
+The rest of Cordillera Administrative Region, Batanes, Nueva Vizcaya, Bataan, Zambales, Tarlac, Pampanga, and Nueva Ecija
+
+WEATHER CONDITION:
+Occasional rains
+
+CAUSED BY:
+Southwest Monsoon
+
+IMPACTS:
+Possible flash floods or landslides due to moderate to heavy rains
+
+3. PLACE:
+Metro Manila, CALABARZON, the rest of Cagayan Valley, the rest of Central Luzon, Occidental Mindoro, Oriental Mindoro, Marinduque, Romblon, Aklan, and Antique
+
+WEATHER CONDITION:
+Cloudy skies with scattered rains and thunderstorms
+
+CAUSED BY:
+Southwest Monsoon
+
+IMPACTS:
+Possible flash floods or landslides due to moderate to at times heavy rains
+
+4. PLACE:
+The rest of Luzon, Negros Island Region, and the rest of Western Visayas
+
+WEATHER CONDITION:
+Partly cloudy to cloudy skies with isolated rainshowers or thunderstorms
+
+CAUSED BY:
+Southwest Monsoon
+
+IMPACTS:
+Possible flash floods or landslides during severe thunderstorms
+
+5. PLACE:
+The rest of the country
+
+WEATHER CONDITION:
+Partly cloudy to cloudy skies with isolated rainshowers or thunderstorms
+
+CAUSED BY:
+Localized Thunderstorms
+
+IMPACTS:
+Possible flash floods or landslides during severe thunderstorms</description>
+            <link>https://pagasa.dost.gov.ph/weather</link>
+            <guid isPermaLink="false">pagasa-2026-08-31-1600</guid>
+            <pubDate>Mon, 31 Aug 2026 08:00:00 +0000</pubDate>
+        </item>
         
         <item>
             <title>PAGASA Daily Weather - 4:00 AM, 31 August 2026</title>
@@ -424,67 +497,6 @@ Possible flash floods or landslides during severe thunderstorms</description>
             <link>https://pagasa.dost.gov.ph/weather</link>
             <guid isPermaLink="false">pagasa-2026-08-28-0400</guid>
             <pubDate>Thu, 27 Aug 2026 20:00:00 +0000</pubDate>
-        </item>
-        
-        <item>
-            <title>PAGASA Daily Weather - 4:00 PM, 26 August 2026</title>
-            <description>[SYNOPSIS]
-
-Southwest Monsoon affecting Luzon and the western section of Visayas.
-
-
-[FORECAST WEATHER CONDITIONS]
-
-1. PLACE:
-Zambales
-
-WEATHER CONDITION:
-Occasional rains
-
-CAUSED BY:
-Southwest Monsoon
-
-IMPACTS:
-Possible flash floods or landslides due to moderate to heavy rains
-
-2. PLACE:
-Metro Manila, Ilocos Region, Cordillera Administrative Region, the rest of Central Luzon, Batanes, Cavite, Batangas, Rizal, Occidental Mindoro, Palawan, Antique, Iloilo, Guimaras, and Negros Occidental
-
-WEATHER CONDITION:
-Cloudy skies with scattered rains and thunderstorms
-
-CAUSED BY:
-Southwest Monsoon
-
-IMPACTS:
-Possible flash floods or landslides due to moderate to at times heavy rains
-
-3. PLACE:
-The rest of Luzon, Aklan, Capiz, and Negros Oriental
-
-WEATHER CONDITION:
-Partly cloudy to cloudy skies with isolated rainshowers or thunderstorms
-
-CAUSED BY:
-Southwest Monsoon
-
-IMPACTS:
-Possible flash floods or landslides during severe thunderstorms
-
-4. PLACE:
-The rest of the country
-
-WEATHER CONDITION:
-Partly cloudy to cloudy skies with isolated rainshowers or thunderstorms
-
-CAUSED BY:
-Localized Thunderstorms
-
-IMPACTS:
-Possible flash floods or landslides during severe thunderstorms</description>
-            <link>https://pagasa.dost.gov.ph/weather</link>
-            <guid isPermaLink="false">pagasa-2026-08-26-1600</guid>
-            <pubDate>Wed, 26 Aug 2026 08:00:00 +0000</pubDate>
         </item>
         
 
