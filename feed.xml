@@ -9,8 +9,69 @@
             Daily weather information from PAGASA
         </description>
 
-        <lastBuildDate>Wed, 02 Sep 2026 00:10:01 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 02 Sep 2026 09:13:20 +0000</lastBuildDate>
 
+        
+        <item>
+            <title>PAGASA Daily Weather - 4:00 PM, 02 September 2026</title>
+            <description>[SYNOPSIS]
+
+SYNOPSIS:At 3:00 PM today, the center of Tropical Storm "PILANDOK" {KROVANH} was estimated based on all available data at 1,080 km East Northeast of Extreme Northern Luzon (23.2°N, 132.0°E) with maximum sustained winds of 65 km/h near the center and gustiness of up to 80 km/h. It is moving West Northwestward at 15 km/h. Southwest Monsoon affecting Luzon and Visayas.
+
+
+[FORECAST WEATHER CONDITIONS]
+
+1. PLACE:
+Ilocos Region, Abra, Benguet, Zambales, and Bataan
+
+WEATHER CONDITION:
+Occasional rains
+
+CAUSED BY:
+Southwest Monsoon
+
+IMPACTS:
+Possible flash floods or landslides due to moderate to heavy rains
+
+2. PLACE:
+Metro Manila, Cagayan Valley, rest of Cordillera Administrative Region, rest of Central Luzon, Cavite, Batangas, Rizal, and Occidental Mindoro
+
+WEATHER CONDITION:
+Cloudy skies with scattered rains and thunderstorms
+
+CAUSED BY:
+Southwest Monsoon
+
+IMPACTS:
+Possible flash floods or landslides due to moderate to at times heavy rains
+
+3. PLACE:
+Visayas and the rest of Luzon
+
+WEATHER CONDITION:
+Partly cloudy to cloudy skies with isolated rainshowers or thunderstorms
+
+CAUSED BY:
+Southwest Monsoon
+
+IMPACTS:
+Possible flash floods or landslides during severe thunderstorms
+
+4. PLACE:
+Mindanao
+
+WEATHER CONDITION:
+Partly cloudy to cloudy skies with isolated rainshowers or thunderstorms
+
+CAUSED BY:
+Localized Thunderstorms
+
+IMPACTS:
+Possible flash floods or landslides during severe thunderstorms</description>
+            <link>https://pagasa.dost.gov.ph/weather</link>
+            <guid isPermaLink="false">pagasa-2026-09-02-1600</guid>
+            <pubDate>Wed, 02 Sep 2026 08:00:00 +0000</pubDate>
+        </item>
         
         <item>
             <title>PAGASA Daily Weather - 4:00 AM, 02 September 2026</title>
@@ -412,79 +473,6 @@ Possible flash floods or landslides during severe thunderstorms</description>
             <link>https://pagasa.dost.gov.ph/weather</link>
             <guid isPermaLink="false">pagasa-2026-08-30-1600</guid>
             <pubDate>Sun, 30 Aug 2026 08:00:00 +0000</pubDate>
-        </item>
-        
-        <item>
-            <title>PAGASA Daily Weather - 4:00 AM, 30 August 2026</title>
-            <description>[SYNOPSIS]
-
-SYNOPSIS:At 3:00 AM today, a Low Pressure Area (LPA) was estimated based on all available data at 1,340 km East of Extreme Northern Luzon (20.7°N, 134.7°E). Southwest Monsoon affecting Luzon and Visayas.
-
-
-[FORECAST WEATHER CONDITIONS]
-
-1. PLACE:
-Ilocos Sur, Pangasinan, La Union, Benguet, Bataan, Zambales, Tarlac, and Pampanga
-
-WEATHER CONDITION:
-Monsoon rains
-
-CAUSED BY:
-Southwest Monsoon
-
-IMPACTS:
-Possible flash floods or landslides due to heavy to intense rains
-
-2. PLACE:
-Metro Manila, Ilocos Norte, the rest of Cordillera Administrative Region, Nueva Vizcaya, Nueva Ecija, Bulacan, Rizal, Cavite, Laguna, Batangas, and Occidental Mindoro
-
-WEATHER CONDITION:
-Occasional rains
-
-CAUSED BY:
-Southwest Monsoon
-
-IMPACTS:
-Possible flash floods or landslides due to moderate to heavy rains
-
-3. PLACE:
-The rest of Luzon, Western Visayas, and Negros Island Region
-
-WEATHER CONDITION:
-Cloudy skies with scattered rains and thunderstorms
-
-CAUSED BY:
-Southwest Monsoon
-
-IMPACTS:
-Possible flash floods or landslides due to moderate to at times heavy rains
-
-4. PLACE:
-The rest of Visayas
-
-WEATHER CONDITION:
-Partly cloudy to cloudy skies with isolated rainshowers or thunderstorms
-
-CAUSED BY:
-Southwest Monsoon
-
-IMPACTS:
-Possible flash floods or landslides during severe thunderstorms
-
-5. PLACE:
-Mindanao
-
-WEATHER CONDITION:
-Partly cloudy to cloudy skies with isolated rainshowers or thunderstorms
-
-CAUSED BY:
-Localized Thunderstorms
-
-IMPACTS:
-Possible flash floods or landslides during severe thunderstorms</description>
-            <link>https://pagasa.dost.gov.ph/weather</link>
-            <guid isPermaLink="false">pagasa-2026-08-30-0400</guid>
-            <pubDate>Sat, 29 Aug 2026 20:00:00 +0000</pubDate>
         </item>
         
 
