@@ -9,8 +9,81 @@
             Daily weather information from PAGASA
         </description>
 
-        <lastBuildDate>Fri, 04 Sep 2026 09:12:56 +0000</lastBuildDate>
+        <lastBuildDate>Sat, 05 Sep 2026 00:09:49 +0000</lastBuildDate>
 
+        
+        <item>
+            <title>PAGASA Daily Weather - 4:00 AM, 05 September 2026</title>
+            <description>[SYNOPSIS]
+
+Southwest Monsoon affecting Luzon and Visayas.
+
+
+[FORECAST WEATHER CONDITIONS]
+
+1. PLACE:
+Occidental Mindoro
+
+WEATHER CONDITION:
+Monsoon rains
+
+CAUSED BY:
+Southwest Monsoon
+
+IMPACTS:
+Possible flash floods or landslides due to heavy to intense rains
+
+2. PLACE:
+Metro Manila, Zambales, Bataan, Tarlac, Pampanga, Bulacan, Rizal, Cavite, Laguna, Batangas, Oriental Mindoro, and Antique
+
+WEATHER CONDITION:
+Occasional rains
+
+CAUSED BY:
+Southwest Monsoon
+
+IMPACTS:
+Possible flash floods or landslides due to moderate to heavy rains
+
+3. PLACE:
+Ilocos Region, Bicol Region, the rest of Central Luzon, the rest of CALABARZON, the rest of MIMAROPA, the rest of Western Visayas, Abra, Benguet, and Northern Samar
+
+WEATHER CONDITION:
+Cloudy skies with scattered rains and thunderstorms
+
+CAUSED BY:
+Southwest Monsoon
+
+IMPACTS:
+Possible flash floods or landslides due to moderate to at times heavy rains
+
+4. PLACE:
+The rest of Luzon and Visayas
+
+WEATHER CONDITION:
+Partly cloudy to cloudy skies with isolated rainshowers or thunderstorms
+
+CAUSED BY:
+Southwest Monsoon
+
+IMPACTS:
+Possible flash floods or landslides during severe thunderstorms
+
+5. PLACE:
+Mindanao
+
+WEATHER CONDITION:
+Partly cloudy to cloudy skies with isolated rainshowers or thunderstorms
+
+CAUSED BY:
+Localized Thunderstorms
+
+IMPACTS:
+Possible flash floods or landslides during severe thunderstorms</description>
+            <link>https://pagasa.dost.gov.ph/weather</link>
+            <guid isPermaLink="false">pagasa-2026-09-05-0400</guid>
+            <pubDate>Fri, 04 Sep 2026 20:00:00 +0000</pubDate>
+        </item>
         
         <item>
             <title>PAGASA Daily Weather - 4:00 PM, 04 September 2026</title>
@@ -400,67 +473,6 @@ Possible flash floods or landslides during severe thunderstorms</description>
             <link>https://pagasa.dost.gov.ph/weather</link>
             <guid isPermaLink="false">pagasa-2026-09-02-0400</guid>
             <pubDate>Tue, 01 Sep 2026 20:00:00 +0000</pubDate>
-        </item>
-        
-        <item>
-            <title>PAGASA Daily Weather - 4:00 PM, 01 September 2026</title>
-            <description>[SYNOPSIS]
-
-SYNOPSIS:At 3:00 PM today, the center of Tropical Storm "PILANDOK" {KROVANH} was estimated based on all available data at 1,015 km East of Extreme Northern Luzon (22.2°N, 131.5°E) with maximum sustained winds of 65 km/h near the center and gustiness of up to 80 km/h. It is moving West Northwestward at 10 km/h. Southwest Monsoon affecting Luzon and Visayas.
-
-
-[FORECAST WEATHER CONDITIONS]
-
-1. PLACE:
-Ilocos Norte, Ilocos Sur, Batanes, and Zambales
-
-WEATHER CONDITION:
-Occasional rains
-
-CAUSED BY:
-Southwest Monsoon
-
-IMPACTS:
-Possible flash floods or landslides due to moderate to heavy rains
-
-2. PLACE:
-Metro Manila, Cordillera Administrative Region, the rest of Ilocos Region, the rest of Cagayan Valley, the rest of Central Luzon, Cavite, Batangas, Rizal, Occidental Mindoro, Aklan, and Antique
-
-WEATHER CONDITION:
-Cloudy skies with scattered rains and thunderstorms
-
-CAUSED BY:
-Southwest Monsoon
-
-IMPACTS:
-Possible flash floods or landslides due to moderate to at times heavy rains
-
-3. PLACE:
-The rest of Luzon and Visayas
-
-WEATHER CONDITION:
-Partly cloudy to cloudy skies with isolated rainshowers or thunderstorms
-
-CAUSED BY:
-Southwest Monsoon
-
-IMPACTS:
-Possible flash floods or landslides during severe thunderstorms
-
-4. PLACE:
-Mindanao
-
-WEATHER CONDITION:
-Partly cloudy to cloudy skies with isolated rainshowers or thunderstorms
-
-CAUSED BY:
-Localized Thunderstorms
-
-IMPACTS:
-Possible flash floods or landslides during severe thunderstorms</description>
-            <link>https://pagasa.dost.gov.ph/weather</link>
-            <guid isPermaLink="false">pagasa-2026-09-01-1600</guid>
-            <pubDate>Tue, 01 Sep 2026 08:00:00 +0000</pubDate>
         </item>
         
 
