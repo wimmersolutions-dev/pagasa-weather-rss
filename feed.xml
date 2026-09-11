@@ -9,8 +9,57 @@
             Daily weather information from PAGASA
         </description>
 
-        <lastBuildDate>Fri, 11 Sep 2026 00:09:20 +0000</lastBuildDate>
+        <lastBuildDate>Fri, 11 Sep 2026 09:12:58 +0000</lastBuildDate>
 
+        
+        <item>
+            <title>PAGASA Daily Weather - 4:00 PM, 11 September 2026</title>
+            <description>[SYNOPSIS]
+
+Southwest Monsoon affecting Central Luzon, Southern Luzon, and Western Visayas.
+
+
+[FORECAST WEATHER CONDITIONS]
+
+1. PLACE:
+Ilocos Region, Cordillera Administrative Region, and Cagayan Valley
+
+WEATHER CONDITION:
+Cloudy skies with scattered rains and thunderstorms
+
+CAUSED BY:
+Trough of a Low Pressure Area
+
+IMPACTS:
+Possible flash floods or landslides due to moderate to at times heavy rains
+
+2. PLACE:
+Metro Manila, the rest of Luzon, Western Visayas, and Northern Samar
+
+WEATHER CONDITION:
+Cloudy skies with scattered rains and thunderstorms
+
+CAUSED BY:
+Southwest Monsoon
+
+IMPACTS:
+Possible flash floods or landslides due to moderate to at times heavy rains
+
+3. PLACE:
+The rest of the country
+
+WEATHER CONDITION:
+Partly cloudy to cloudy skies with isolated rainshowers or thunderstorms
+
+CAUSED BY:
+Localized Thunderstorms
+
+IMPACTS:
+Possible flash floods or landslides during severe thunderstorms</description>
+            <link>https://pagasa.dost.gov.ph/weather</link>
+            <guid isPermaLink="false">pagasa-2026-09-11-1600</guid>
+            <pubDate>Fri, 11 Sep 2026 08:00:00 +0000</pubDate>
+        </item>
         
         <item>
             <title>PAGASA Daily Weather - 4:00 AM, 11 September 2026</title>
@@ -376,79 +425,6 @@ Possible flash floods or landslides during severe thunderstorms</description>
             <link>https://pagasa.dost.gov.ph/weather</link>
             <guid isPermaLink="false">pagasa-2026-09-08-1600</guid>
             <pubDate>Tue, 08 Sep 2026 08:00:00 +0000</pubDate>
-        </item>
-        
-        <item>
-            <title>PAGASA Daily Weather - 4:00 AM, 08 September 2026</title>
-            <description>[SYNOPSIS]
-
-Southwest Monsoon affecting Luzon and Visayas.
-
-
-[FORECAST WEATHER CONDITIONS]
-
-1. PLACE:
-Zambales and Bataan
-
-WEATHER CONDITION:
-Monsoon rains
-
-CAUSED BY:
-Southwest Monsoon
-
-IMPACTS:
-Possible flash floods or landslides due to moderate to heavy with at times intense rains
-
-2. PLACE:
-Pangasinan, Tarlac, Pampanga, Cavite, Batangas, and Occidental Mindoro
-
-WEATHER CONDITION:
-Occasional rains
-
-CAUSED BY:
-Southwest Monsoon
-
-IMPACTS:
-Possible flash floods or landslides due to moderate to heavy rains
-
-3. PLACE:
-Metro Manila, the rest of Luzon, and Western Visayas
-
-WEATHER CONDITION:
-Cloudy skies with scattered rains and thunderstorms
-
-CAUSED BY:
-Southwest Monsoon
-
-IMPACTS:
-Possible flash floods or landslides due to moderate to at times heavy rains
-
-4. PLACE:
-The rest of Visayas
-
-WEATHER CONDITION:
-Partly cloudy to cloudy skies with isolated rainshowers or thunderstorms
-
-CAUSED BY:
-Southwest Monsoon
-
-IMPACTS:
-Possible flash floods or landslides during severe thunderstorms
-
-5. PLACE:
-Mindanao
-
-WEATHER CONDITION:
-Partly cloudy to cloudy skies with isolated rainshowers or thunderstorms
-
-CAUSED BY:
-Localized Thunderstorms
-
-IMPACTS:
-Possible flash floods or landslides during severe thunderstorms</description>
-            <link>https://pagasa.dost.gov.ph/weather</link>
-            <guid isPermaLink="false">pagasa-2026-09-08-0400</guid>
-            <pubDate>Mon, 07 Sep 2026 20:00:00 +0000</pubDate>
         </item>
         
 
