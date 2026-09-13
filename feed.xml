@@ -9,8 +9,45 @@
             Daily weather information from PAGASA
         </description>
 
-        <lastBuildDate>Sat, 12 Sep 2026 09:11:59 +0000</lastBuildDate>
+        <lastBuildDate>Sun, 13 Sep 2026 00:09:03 +0000</lastBuildDate>
 
+        
+        <item>
+            <title>PAGASA Daily Weather - 4:00 AM, 13 September 2026</title>
+            <description>[SYNOPSIS]
+
+Easterlies affecting Extreme Northern Luzon.
+
+
+[FORECAST WEATHER CONDITIONS]
+
+1. PLACE:
+Batanes and Babuyan Islands
+
+WEATHER CONDITION:
+Partly cloudy to cloudy skies with isolated rainshowers or thunderstorms
+
+CAUSED BY:
+Easterlies
+
+IMPACTS:
+Possible flash floods or landslides during severe thunderstorms
+
+2. PLACE:
+Metro Manila and the rest of the country
+
+WEATHER CONDITION:
+Partly cloudy to cloudy skies with isolated rainshowers or thunderstorms
+
+CAUSED BY:
+Localized Thunderstorms
+
+IMPACTS:
+Possible flash floods or landslides during severe thunderstorms</description>
+            <link>https://pagasa.dost.gov.ph/weather</link>
+            <guid isPermaLink="false">pagasa-2026-09-13-0400</guid>
+            <pubDate>Sat, 12 Sep 2026 20:00:00 +0000</pubDate>
+        </item>
         
         <item>
             <title>PAGASA Daily Weather - 4:00 PM, 12 September 2026</title>
@@ -304,67 +341,6 @@ Possible flash floods or landslides during severe thunderstorms</description>
             <link>https://pagasa.dost.gov.ph/weather</link>
             <guid isPermaLink="false">pagasa-2026-09-10-0400</guid>
             <pubDate>Wed, 09 Sep 2026 20:00:00 +0000</pubDate>
-        </item>
-        
-        <item>
-            <title>PAGASA Daily Weather - 4:00 PM, 09 September 2026</title>
-            <description>[SYNOPSIS]
-
-Southwest Monsoon affecting Central Luzon, Southern Luzon, and Visayas.
-
-
-[FORECAST WEATHER CONDITIONS]
-
-1. PLACE:
-Occidental Mindoro
-
-WEATHER CONDITION:
-Monsoon rains
-
-CAUSED BY:
-Southwest Monsoon
-
-IMPACTS:
-Possible flash floods or landslides due to heavy to intense rains
-
-2. PLACE:
-Metro Manila, Central Luzon, CALABARZON, rest of MIMAROPA, Pangasinan, La Union, Benguet, Nueva Vizcaya, Quirino, Camarines Norte, Camarines Sur, Albay, Catanduanes, Aklan, and Antique
-
-WEATHER CONDITION:
-Occasional rains
-
-CAUSED BY:
-Southwest Monsoon
-
-IMPACTS:
-Possible flash floods or landslides due to moderate to heavy rains
-
-3. PLACE:
-The rest of Luzon, the rest of Visayas, Zamboanga Peninsula, and Northern Mindanao
-
-WEATHER CONDITION:
-Cloudy skies with scattered rains and thunderstorms
-
-CAUSED BY:
-Southwest Monsoon
-
-IMPACTS:
-Possible flash floods or landslides due to moderate to at times heavy rains
-
-4. PLACE:
-The rest of Mindanao
-
-WEATHER CONDITION:
-Partly cloudy to cloudy skies with isolated rainshowers or thunderstorms
-
-CAUSED BY:
-Localized Thunderstorms
-
-IMPACTS:
-Possible flash floods or landslides during severe thunderstorms</description>
-            <link>https://pagasa.dost.gov.ph/weather</link>
-            <guid isPermaLink="false">pagasa-2026-09-09-1600</guid>
-            <pubDate>Wed, 09 Sep 2026 08:00:00 +0000</pubDate>
         </item>
         
 
