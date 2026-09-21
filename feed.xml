@@ -9,8 +9,45 @@
             Daily weather information from PAGASA
         </description>
 
-        <lastBuildDate>Sun, 20 Sep 2026 09:12:05 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 21 Sep 2026 00:08:41 +0000</lastBuildDate>
 
+        
+        <item>
+            <title>PAGASA Daily Weather - 4:00 AM, 21 September 2026</title>
+            <description>[SYNOPSIS]
+
+Southwest Monsoon affecting the western section of Southern Luzon.
+
+
+[FORECAST WEATHER CONDITIONS]
+
+1. PLACE:
+Palawan, Occidental Mindoro and Oriental Mindoro
+
+WEATHER CONDITION:
+Partly cloudy to cloudy skies with isolated rainshowers or thunderstorms
+
+CAUSED BY:
+Southwest Monsoon
+
+IMPACTS:
+Possible flash floods or landslides during severe thunderstorms
+
+2. PLACE:
+Metro Manila and the rest of the country
+
+WEATHER CONDITION:
+Partly cloudy to cloudy skies with isolated rainshowers or thunderstorms
+
+CAUSED BY:
+Localized thunderstorms
+
+IMPACTS:
+Possible flash floods or landslides during severe thunderstorms</description>
+            <link>https://pagasa.dost.gov.ph/weather</link>
+            <guid isPermaLink="false">pagasa-2026-09-21-0400</guid>
+            <pubDate>Sun, 20 Sep 2026 20:00:00 +0000</pubDate>
+        </item>
         
         <item>
             <title>PAGASA Daily Weather - 4:00 PM, 20 September 2026</title>
@@ -292,43 +329,6 @@ Possible flash floods or landslides during severe thunderstorms</description>
             <link>https://pagasa.dost.gov.ph/weather</link>
             <guid isPermaLink="false">pagasa-2026-09-18-0400</guid>
             <pubDate>Thu, 17 Sep 2026 20:00:00 +0000</pubDate>
-        </item>
-        
-        <item>
-            <title>PAGASA Daily Weather - 4:00 PM, 17 September 2026</title>
-            <description>[SYNOPSIS]
-
-At 3:00 PM today, the Low Pressure Area (LPA) was estimated based on all available data at 160 km East of Puerto Princesa City, Palawan or 130 km Southwest of Cuyo, Palawan (10.0°N, 120.2°E).
-
-
-[FORECAST WEATHER CONDITIONS]
-
-1. PLACE:
-Visayas, MIMAROPA, Bicol Region, Zamboanga Peninsula, BARMM, Northern Mindanao, Batangas and Quezon
-
-WEATHER CONDITION:
-Cloudy skies with scattered rains and thunderstorms
-
-CAUSED BY:
-LPA
-
-IMPACTS:
-Possible flash floods or landslides due to moderate to at times heavy rains
-
-2. PLACE:
-Metro Manila and the rest of the country
-
-WEATHER CONDITION:
-Partly cloudy to cloudy skies with isolated rainshowers or thunderstorms
-
-CAUSED BY:
-Localized thunderstorms
-
-IMPACTS:
-Possible flash floods or landslides during severe thunderstorms</description>
-            <link>https://pagasa.dost.gov.ph/weather</link>
-            <guid isPermaLink="false">pagasa-2026-09-17-1600</guid>
-            <pubDate>Thu, 17 Sep 2026 08:00:00 +0000</pubDate>
         </item>
         
 
