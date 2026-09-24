@@ -9,8 +9,57 @@
             Daily weather information from PAGASA
         </description>
 
-        <lastBuildDate>Wed, 23 Sep 2026 09:12:44 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 24 Sep 2026 00:08:05 +0000</lastBuildDate>
 
+        
+        <item>
+            <title>PAGASA Daily Weather - 4:00 AM, 24 September 2026</title>
+            <description>[SYNOPSIS]
+
+Trough of Tropical Storm "SURIGAE" affecting the eastern sections of Visayas and Mindanao.
+
+
+[FORECAST WEATHER CONDITIONS]
+
+1. PLACE:
+Biliran, Leyte, Southern Leyte, Dinagat Islands, Surigao del Norte, and Surigao del Sur
+
+WEATHER CONDITION:
+Cloudy skies with scattered rains and thunderstorms
+
+CAUSED BY:
+Trough of TC SURIGAE
+
+IMPACTS:
+Possible flash floods or landslides due to moderate to at times heavy rains
+
+2. PLACE:
+Bicol Region and the rest of Eastern Visayas
+
+WEATHER CONDITION:
+Partly cloudy to cloudy skies with isolated rainshowers or thunderstorms
+
+CAUSED BY:
+Trough of TC SURIGAE
+
+IMPACTS:
+Possible flash floods or landslides during severe thunderstorms
+
+3. PLACE:
+Metro Manila and the rest of the country
+
+WEATHER CONDITION:
+Partly cloudy to cloudy skies with isolated rainshowers or thunderstorms
+
+CAUSED BY:
+Localized thunderstorms
+
+IMPACTS:
+Possible flash floods or landslides during severe thunderstorms</description>
+            <link>https://pagasa.dost.gov.ph/weather</link>
+            <guid isPermaLink="false">pagasa-2026-09-24-0400</guid>
+            <pubDate>Wed, 23 Sep 2026 20:00:00 +0000</pubDate>
+        </item>
         
         <item>
             <title>PAGASA Daily Weather - 4:00 PM, 23 September 2026</title>
@@ -268,55 +317,6 @@ Possible flash floods or landslides during severe thunderstorms</description>
             <link>https://pagasa.dost.gov.ph/weather</link>
             <guid isPermaLink="false">pagasa-2026-09-21-0400</guid>
             <pubDate>Sun, 20 Sep 2026 20:00:00 +0000</pubDate>
-        </item>
-        
-        <item>
-            <title>PAGASA Daily Weather - 4:00 PM, 20 September 2026</title>
-            <description>[SYNOPSIS]
-
-Southwest Monsoon affecting the western section of Southern Luzon.
-
-
-[FORECAST WEATHER CONDITIONS]
-
-1. PLACE:
-Palawan
-
-WEATHER CONDITION:
-Cloudy skies with scattered rains and thunderstorms
-
-CAUSED BY:
-Southwest Monsoon
-
-IMPACTS:
-Possible flash floods or landslides due to moderate to at times heavy rains
-
-2. PLACE:
-Occidental Mindoro and Oriental Mindoro
-
-WEATHER CONDITION:
-Partly cloudy to cloudy skies with isolated rainshowers or thunderstorms
-
-CAUSED BY:
-Southwest Monsoon
-
-IMPACTS:
-Possible flash floods or landslides during severe thunderstorms
-
-3. PLACE:
-Metro Manila and the rest of the country
-
-WEATHER CONDITION:
-Partly cloudy to cloudy skies with isolated rainshowers or thunderstorms
-
-CAUSED BY:
-Localized thunderstorms
-
-IMPACTS:
-Possible flash floods or landslides during severe thunderstorms</description>
-            <link>https://pagasa.dost.gov.ph/weather</link>
-            <guid isPermaLink="false">pagasa-2026-09-20-1600</guid>
-            <pubDate>Sun, 20 Sep 2026 08:00:00 +0000</pubDate>
         </item>
         
 
