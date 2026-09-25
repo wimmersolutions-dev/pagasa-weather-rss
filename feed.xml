@@ -9,8 +9,57 @@
             Daily weather information from PAGASA
         </description>
 
-        <lastBuildDate>Thu, 24 Sep 2026 09:13:51 +0000</lastBuildDate>
+        <lastBuildDate>Fri, 25 Sep 2026 02:56:52 +0000</lastBuildDate>
 
+        
+        <item>
+            <title>PAGASA Daily Weather - 4:00 AM, 25 September 2026</title>
+            <description>[SYNOPSIS]
+
+At 3:00 AM today, the center of Tropical Storm "QUEENIE" was estimated based on all available data at 1,075 km East of Extreme Northern Luzon (19.3°N 131.7°E) with maximum sustained winds of 75 km/h near the center and gustiness of up to 90 km/h. It is moving Northwestward at 20 km/h. Intertropical Convergence Zone (ITCZ) affecting Visayas and Mindanao.
+
+
+[FORECAST WEATHER CONDITIONS]
+
+1. PLACE:
+Mindanao, Negros Oriental, and Siquijor
+
+WEATHER CONDITION:
+Cloudy skies with scattered rains and thunderstorms
+
+CAUSED BY:
+ITCZ
+
+IMPACTS:
+Possible flash floods or landslides due to moderate to at times heavy rains
+
+2. PLACE:
+The rest of Visayas and Palawan
+
+WEATHER CONDITION:
+Partly cloudy to cloudy skies with isolated rainshowers or thunderstorms
+
+CAUSED BY:
+ITCZ
+
+IMPACTS:
+Possible flash floods or landslides during severe thunderstorms
+
+3. PLACE:
+Metro Manila and the rest of Luzon
+
+WEATHER CONDITION:
+Partly cloudy to cloudy skies with isolated rainshowers or thunderstorms
+
+CAUSED BY:
+Localized thunderstorms
+
+IMPACTS:
+Possible flash floods or landslides during severe thunderstorms</description>
+            <link>https://pagasa.dost.gov.ph/weather</link>
+            <guid isPermaLink="false">pagasa-2026-09-25-0400</guid>
+            <pubDate>Thu, 24 Sep 2026 20:00:00 +0000</pubDate>
+        </item>
         
         <item>
             <title>PAGASA Daily Weather - 4:00 PM, 24 September 2026</title>
@@ -280,55 +329,6 @@ Possible flash floods or landslides during severe thunderstorms</description>
             <link>https://pagasa.dost.gov.ph/weather</link>
             <guid isPermaLink="false">pagasa-2026-09-22-0400</guid>
             <pubDate>Mon, 21 Sep 2026 20:00:00 +0000</pubDate>
-        </item>
-        
-        <item>
-            <title>PAGASA Daily Weather - 4:00 PM, 21 September 2026</title>
-            <description>[SYNOPSIS]
-
-Trough of Low Pressure Area (LPA) affecting the eastern section of Visayas.
-
-
-[FORECAST WEATHER CONDITIONS]
-
-1. PLACE:
-Eastern Visayas, Caraga, Bohol, and Davao Oriental
-
-WEATHER CONDITION:
-Cloudy skies with scattered rains and thunderstorms
-
-CAUSED BY:
-Trough of LPA
-
-IMPACTS:
-Possible flash floods or landslides due to moderate to at times heavy rains
-
-2. PLACE:
-Palawan, Occidental Mindoro, and Oriental Mindoro
-
-WEATHER CONDITION:
-Partly cloudy to cloudy skies with isolated rainshowers or thunderstorms
-
-CAUSED BY:
-Southwest Monsoon
-
-IMPACTS:
-Possible flash floods or landslides during severe thunderstorms
-
-3. PLACE:
-Metro Manila and the rest of the country
-
-WEATHER CONDITION:
-Partly cloudy to cloudy skies with isolated rainshowers or thunderstorms
-
-CAUSED BY:
-Localized thunderstorms
-
-IMPACTS:
-Possible flash floods or landslides during severe thunderstorms</description>
-            <link>https://pagasa.dost.gov.ph/weather</link>
-            <guid isPermaLink="false">pagasa-2026-09-21-1600</guid>
-            <pubDate>Mon, 21 Sep 2026 08:00:00 +0000</pubDate>
         </item>
         
 
