@@ -9,8 +9,45 @@
             Daily weather information from PAGASA
         </description>
 
-        <lastBuildDate>Sun, 04 Oct 2026 03:46:54 +0000</lastBuildDate>
+        <lastBuildDate>Sun, 04 Oct 2026 14:40:48 +0000</lastBuildDate>
 
+        
+        <item>
+            <title>PAGASA Daily Weather - 4:00 PM, 04 October 2026</title>
+            <description>[SYNOPSIS]
+
+Trough of Typhoon {CHOI-WAN} affecting Visayas and Mindanao.
+
+
+[FORECAST WEATHER CONDITIONS]
+
+1. PLACE:
+Mindanao, Western Visayas, Negros Island Region, Central Visayas, Leyte, and Southern Leyte
+
+WEATHER CONDITION:
+Cloudy skies with scattered rains and thunderstorms
+
+CAUSED BY:
+Trough of TC Choi-Wan
+
+IMPACTS:
+Possible flash floods or landslides due to moderate to at times heavy rains
+
+2. PLACE:
+Metro Manila and the rest of the country
+
+WEATHER CONDITION:
+Partly cloudy to cloudy skies with isolated rainshowers or thunderstorms
+
+CAUSED BY:
+Localized Thunderstorms
+
+IMPACTS:
+Possible flash floods or landslides during severe thunderstorms</description>
+            <link>https://pagasa.dost.gov.ph/weather</link>
+            <guid isPermaLink="false">pagasa-2026-10-04-1600</guid>
+            <pubDate>Sun, 04 Oct 2026 08:00:00 +0000</pubDate>
+        </item>
         
         <item>
             <title>PAGASA Daily Weather - 4:00 AM, 04 October 2026</title>
@@ -256,55 +293,6 @@ Possible flash floods or landslides during severe thunderstorms</description>
             <link>https://pagasa.dost.gov.ph/weather</link>
             <guid isPermaLink="false">pagasa-2026-10-01-1600</guid>
             <pubDate>Thu, 01 Oct 2026 08:00:00 +0000</pubDate>
-        </item>
-        
-        <item>
-            <title>PAGASA Daily Weather - 4:00 AM, 01 October 2026</title>
-            <description>[SYNOPSIS]
-
-Trough of Tropical Storm "CHOI-WAN" affecting the eastern sections of Visayas and Mindanao.
-
-
-[FORECAST WEATHER CONDITIONS]
-
-1. PLACE:
-Eastern Visayas, Caraga, and Davao Oriental
-
-WEATHER CONDITION:
-Cloudy skies with scattered rains and thunderstorms
-
-CAUSED BY:
-Trough of TC Choi-Wan
-
-IMPACTS:
-Possible flash floods or landslides due to moderate to at times heavy rains
-
-2. PLACE:
-Northern Mindanao and the rest of Davao Region
-
-WEATHER CONDITION:
-Partly cloudy to cloudy skies with isolated rainshowers or thunderstorms
-
-CAUSED BY:
-Trough of TC Choi-Wan
-
-IMPACTS:
-Possible flash floods or landslides during severe thunderstorms
-
-3. PLACE:
-Metro Manila and the rest of the country
-
-WEATHER CONDITION:
-Partly cloudy to cloudy skies with isolated rainshowers or thunderstorms
-
-CAUSED BY:
-Localized Thunderstorms
-
-IMPACTS:
-Possible flash floods or landslides during severe thunderstorms</description>
-            <link>https://pagasa.dost.gov.ph/weather</link>
-            <guid isPermaLink="false">pagasa-2026-10-01-0400</guid>
-            <pubDate>Wed, 30 Sep 2026 20:00:00 +0000</pubDate>
         </item>
         
 
