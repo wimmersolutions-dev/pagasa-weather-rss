@@ -9,8 +9,69 @@
             Daily weather information from PAGASA
         </description>
 
-        <lastBuildDate>Thu, 08 Oct 2026 03:58:57 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 08 Oct 2026 16:11:17 +0000</lastBuildDate>
 
+        
+        <item>
+            <title>PAGASA Daily Weather - 4:00 PM, 08 October 2026</title>
+            <description>[SYNOPSIS]
+
+Intertropical Convergence Zone (ITCZ) affecting Visayas, Mindanao, and Palawan. Northeasterly Windflow affecting the eastern sections of Northern and Central Luzon.
+
+
+[FORECAST WEATHER CONDITIONS]
+
+1. PLACE:
+Visayas, Mindanao, and Palawan
+
+WEATHER CONDITION:
+Cloudy skies with scattered rains and thunderstorms
+
+CAUSED BY:
+ITCZ
+
+IMPACTS:
+Possible flash floods or landslides due to moderate to at times heavy rains
+
+2. PLACE:
+Bicol Region, Quezon, and Marinduque
+
+WEATHER CONDITION:
+Cloudy skies with scattered rains and thunderstorms
+
+CAUSED BY:
+Easterlies
+
+IMPACTS:
+Possible flash floods or landslides due to moderate to at times heavy rains
+
+3. PLACE:
+Cagayan Valley, Apayao, Kalinga, Mountain Province, Ifugao, and Aurora
+
+WEATHER CONDITION:
+Cloudy skies with rains
+
+CAUSED BY:
+Northeasterly Windflow
+
+IMPACTS:
+Possible flash floods or landslides due to moderate to at times heavy rains
+
+4. PLACE:
+Metro Manila and the rest of Luzon
+
+WEATHER CONDITION:
+Partly cloudy to cloudy skies with isolated rainshowers or thunderstorms
+
+CAUSED BY:
+Localized Thunderstorms
+
+IMPACTS:
+Possible flash floods or landslides during severe thunderstorms</description>
+            <link>https://pagasa.dost.gov.ph/weather</link>
+            <guid isPermaLink="false">pagasa-2026-10-08-1600</guid>
+            <pubDate>Thu, 08 Oct 2026 08:00:00 +0000</pubDate>
+        </item>
         
         <item>
             <title>PAGASA Daily Weather - 4:00 AM, 08 October 2026</title>
@@ -292,43 +353,6 @@ Possible flash floods or landslides during severe thunderstorms</description>
             <link>https://pagasa.dost.gov.ph/weather</link>
             <guid isPermaLink="false">pagasa-2026-10-05-1600</guid>
             <pubDate>Mon, 05 Oct 2026 08:00:00 +0000</pubDate>
-        </item>
-        
-        <item>
-            <title>PAGASA Daily Weather - 4:00 AM, 05 October 2026</title>
-            <description>[SYNOPSIS]
-
-Trough of Super Typhoon {CHOI-WAN} affecting Visayas and Mindanao.
-
-
-[FORECAST WEATHER CONDITIONS]
-
-1. PLACE:
-Mindanao, Western Visayas, Negros Island Region, Central Visayas, Leyte, and Southern Leyte
-
-WEATHER CONDITION:
-Cloudy skies with scattered rains and thunderstorms
-
-CAUSED BY:
-Trough of TC Choi-Wan
-
-IMPACTS:
-Possible flash floods or landslides due to moderate to at times heavy rains
-
-2. PLACE:
-Metro Manila and the rest of the country
-
-WEATHER CONDITION:
-Partly cloudy to cloudy skies with isolated rainshowers or thunderstorms
-
-CAUSED BY:
-Localized Thunderstorms
-
-IMPACTS:
-Possible flash floods or landslides during severe thunderstorms</description>
-            <link>https://pagasa.dost.gov.ph/weather</link>
-            <guid isPermaLink="false">pagasa-2026-10-05-0400</guid>
-            <pubDate>Sun, 04 Oct 2026 20:00:00 +0000</pubDate>
         </item>
         
 
