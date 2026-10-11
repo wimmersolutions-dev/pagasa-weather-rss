@@ -9,8 +9,81 @@
             Daily weather information from PAGASA
         </description>
 
-        <lastBuildDate>Sun, 11 Oct 2026 03:23:04 +0000</lastBuildDate>
+        <lastBuildDate>Sun, 11 Oct 2026 15:23:52 +0000</lastBuildDate>
 
+        
+        <item>
+            <title>PAGASA Daily Weather - 4:00 PM, 11 October 2026</title>
+            <description>[SYNOPSIS]
+
+Intertropical Convergence Zone (ITCZ) affecting Southern Luzon, Visayas, Mindanao. Easterlies affecting the eastern sections of Northern and Central Luzon. Northeasterly Windflow affecting Extreme Northern Luzon.
+
+
+[FORECAST WEATHER CONDITIONS]
+
+1. PLACE:
+Mindanao, Bicol Region, MIMAROPA, Western Visayas, Negros Island Region, Central Visayas, and Southern Leyte
+
+WEATHER CONDITION:
+Cloudy skies with scattered rains and thunderstorms
+
+CAUSED BY:
+ITCZ
+
+IMPACTS:
+Possible flash floods or landslides due to moderate to at times heavy rains
+
+2. PLACE:
+Batanes
+
+WEATHER CONDITION:
+Cloudy skies with rains
+
+CAUSED BY:
+Northeasterly Windflow
+
+IMPACTS:
+Possible flash floods or landslides due to moderate to at times heavy rains
+
+3. PLACE:
+Metro Manila, CALABARZON, the rest of Cagayan Valley, Aurora, Nueva Ecija, Bulacan
+
+WEATHER CONDITION:
+Cloudy skies with scattered rains and thunderstorms
+
+CAUSED BY:
+Easterlies
+
+IMPACTS:
+Possible flash floods or landslides due to moderate to at times heavy rains
+
+4. PLACE:
+The rest of Visayas
+
+WEATHER CONDITION:
+Partly cloudy to cloudy skies with isolated rainshowers or thunderstorms
+
+CAUSED BY:
+ITCZ
+
+IMPACTS:
+Possible flash floods or landslides during severe thunderstorms
+
+5. PLACE:
+The rest of Luzon
+
+WEATHER CONDITION:
+Partly cloudy to cloudy skies with isolated rainshowers or thunderstorms
+
+CAUSED BY:
+Localized Thunderstorms
+
+IMPACTS:
+Possible flash floods or landslides during severe thunderstorms</description>
+            <link>https://pagasa.dost.gov.ph/weather</link>
+            <guid isPermaLink="false">pagasa-2026-10-11-1600</guid>
+            <pubDate>Sun, 11 Oct 2026 08:00:00 +0000</pubDate>
+        </item>
         
         <item>
             <title>PAGASA Daily Weather - 4:00 AM, 11 October 2026</title>
@@ -400,55 +473,6 @@ Possible flash floods or landslides during severe thunderstorms</description>
             <link>https://pagasa.dost.gov.ph/weather</link>
             <guid isPermaLink="false">pagasa-2026-10-08-1600</guid>
             <pubDate>Thu, 08 Oct 2026 08:00:00 +0000</pubDate>
-        </item>
-        
-        <item>
-            <title>PAGASA Daily Weather - 4:00 AM, 08 October 2026</title>
-            <description>[SYNOPSIS]
-
-Intertropical Convergence Zone (ITCZ) affecting Visayas, Mindanao, and Palawan. Northeasterly Windflow affecting the eastern section of Northern Luzon.
-
-
-[FORECAST WEATHER CONDITIONS]
-
-1. PLACE:
-Visayas, Mindanao, and Palawan
-
-WEATHER CONDITION:
-Cloudy skies with scattered rains and thunderstorms
-
-CAUSED BY:
-ITCZ
-
-IMPACTS:
-Possible flash floods or landslides due to moderate to at times heavy rains
-
-2. PLACE:
-Cagayan Valley, Bicol Region, Apayao, Kalinga, Mountain Province, Ifugao, Aurora, Quezon, and Marinduque
-
-WEATHER CONDITION:
-Cloudy skies with rains
-
-CAUSED BY:
-Northeasterly Windflow
-
-IMPACTS:
-Possible flash floods or landslides due to moderate to at times heavy rains
-
-3. PLACE:
-Metro Manila and the rest of the country
-
-WEATHER CONDITION:
-Partly cloudy to cloudy skies with isolated rainshowers or thunderstorms
-
-CAUSED BY:
-Localized Thunderstorms
-
-IMPACTS:
-Possible flash floods or landslides during severe thunderstorms</description>
-            <link>https://pagasa.dost.gov.ph/weather</link>
-            <guid isPermaLink="false">pagasa-2026-10-08-0400</guid>
-            <pubDate>Wed, 07 Oct 2026 20:00:00 +0000</pubDate>
         </item>
         
 
