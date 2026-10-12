@@ -9,8 +9,81 @@
             Daily weather information from PAGASA
         </description>
 
-        <lastBuildDate>Sun, 11 Oct 2026 15:23:52 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 12 Oct 2026 03:46:13 +0000</lastBuildDate>
 
+        
+        <item>
+            <title>PAGASA Daily Weather - 4:00 AM, 12 October 2026</title>
+            <description>[SYNOPSIS]
+
+Intertropical Convergence Zone (ITCZ) affecting Southern Luzon, Visayas, and Mindanao. Easterlies affecting the eastern sections of Northern and Central Luzon. Northeasterly Windflow affecting Extreme Northern Luzon.
+
+
+[FORECAST WEATHER CONDITIONS]
+
+1. PLACE:
+Bicol Region, MIMAROPA, Western Visayas, Negros Island Region, Central Visayas, Caraga, Northern Mindanao, Zamboanga Peninsula, Leyte, and Southern Leyte
+
+WEATHER CONDITION:
+Cloudy skies with scattered rains and thunderstorms
+
+CAUSED BY:
+ITCZ
+
+IMPACTS:
+Possible flash floods or landslides due to moderate to at times heavy rains
+
+2. PLACE:
+Batanes and Babuyan Islands
+
+WEATHER CONDITION:
+Cloudy skies with rains
+
+CAUSED BY:
+Northeasterly Windflow
+
+IMPACTS:
+Possible flash floods or landslides due to moderate to at times heavy rains
+
+3. PLACE:
+Metro Manila, CALABARZON, Central Luzon, Isabela, Quirino, Nueva Vizcaya, Benguet, and Pangasinan
+
+WEATHER CONDITION:
+Cloudy skies with scattered rains and thunderstorms
+
+CAUSED BY:
+Easterlies
+
+IMPACTS:
+Possible flash floods or landslides due to moderate to at times heavy rains
+
+4. PLACE:
+The rest of Visayas and Mindanao
+
+WEATHER CONDITION:
+Partly cloudy to cloudy skies with isolated rainshowers or thunderstorms
+
+CAUSED BY:
+ITCZ
+
+IMPACTS:
+Possible flash floods or landslides during severe thunderstorms
+
+5. PLACE:
+The rest of Luzon
+
+WEATHER CONDITION:
+Partly cloudy to cloudy skies with isolated rainshowers or thunderstorms
+
+CAUSED BY:
+Localized Thunderstorms
+
+IMPACTS:
+Possible flash floods or landslides during severe thunderstorms</description>
+            <link>https://pagasa.dost.gov.ph/weather</link>
+            <guid isPermaLink="false">pagasa-2026-10-12-0400</guid>
+            <pubDate>Sun, 11 Oct 2026 20:00:00 +0000</pubDate>
+        </item>
         
         <item>
             <title>PAGASA Daily Weather - 4:00 PM, 11 October 2026</title>
@@ -412,67 +485,6 @@ Possible flash floods or landslides during severe thunderstorms</description>
             <link>https://pagasa.dost.gov.ph/weather</link>
             <guid isPermaLink="false">pagasa-2026-10-09-0400</guid>
             <pubDate>Thu, 08 Oct 2026 20:00:00 +0000</pubDate>
-        </item>
-        
-        <item>
-            <title>PAGASA Daily Weather - 4:00 PM, 08 October 2026</title>
-            <description>[SYNOPSIS]
-
-Intertropical Convergence Zone (ITCZ) affecting Visayas, Mindanao, and Palawan. Northeasterly Windflow affecting the eastern sections of Northern and Central Luzon.
-
-
-[FORECAST WEATHER CONDITIONS]
-
-1. PLACE:
-Visayas, Mindanao, and Palawan
-
-WEATHER CONDITION:
-Cloudy skies with scattered rains and thunderstorms
-
-CAUSED BY:
-ITCZ
-
-IMPACTS:
-Possible flash floods or landslides due to moderate to at times heavy rains
-
-2. PLACE:
-Bicol Region, Quezon, and Marinduque
-
-WEATHER CONDITION:
-Cloudy skies with scattered rains and thunderstorms
-
-CAUSED BY:
-Easterlies
-
-IMPACTS:
-Possible flash floods or landslides due to moderate to at times heavy rains
-
-3. PLACE:
-Cagayan Valley, Apayao, Kalinga, Mountain Province, Ifugao, and Aurora
-
-WEATHER CONDITION:
-Cloudy skies with rains
-
-CAUSED BY:
-Northeasterly Windflow
-
-IMPACTS:
-Possible flash floods or landslides due to moderate to at times heavy rains
-
-4. PLACE:
-Metro Manila and the rest of Luzon
-
-WEATHER CONDITION:
-Partly cloudy to cloudy skies with isolated rainshowers or thunderstorms
-
-CAUSED BY:
-Localized Thunderstorms
-
-IMPACTS:
-Possible flash floods or landslides during severe thunderstorms</description>
-            <link>https://pagasa.dost.gov.ph/weather</link>
-            <guid isPermaLink="false">pagasa-2026-10-08-1600</guid>
-            <pubDate>Thu, 08 Oct 2026 08:00:00 +0000</pubDate>
         </item>
         
 
