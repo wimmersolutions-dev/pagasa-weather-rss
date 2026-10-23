@@ -9,8 +9,81 @@
             Daily weather information from PAGASA
         </description>
 
-        <lastBuildDate>Fri, 23 Oct 2026 02:54:50 +0000</lastBuildDate>
+        <lastBuildDate>Fri, 23 Oct 2026 14:06:42 +0000</lastBuildDate>
 
+        
+        <item>
+            <title>PAGASA Daily Weather - 4:00 PM, 23 October 2026</title>
+            <description>[SYNOPSIS]
+
+At 3:00 PM today, the center of the eye of Typhoon "ROSAL" {CHAMPI} was estimated based on all available data at 375 km North Northeast of Itbayat, Batanes (23.9°N, 123.3°E) with maximum sustained winds of 155 km/h near the center and gustiness of up to 190 km/h. It is moving North Northwestward at 20 km/h.
+
+
+[FORECAST WEATHER CONDITIONS]
+
+1. PLACE:
+Batanes
+
+WEATHER CONDITION:
+Stormy
+
+CAUSED BY:
+TC ROSAL
+
+IMPACTS:
+Possible flash floods or landslides due to moderate to at times heavy rains. Minor to moderate threat to life and property due to strong winds.
+
+2. PLACE:
+Ilocos Norte, Apayao, and Cagayan
+
+WEATHER CONDITION:
+Rains with gusty winds
+
+CAUSED BY:
+TC ROSAL
+
+IMPACTS:
+Possible flash floods or landslides due to moderate to at times heavy rains. Minimal to minor threat to life and property due to strong winds.
+
+3. PLACE:
+The rest of Cordillera Administrative Region, Ilocos Sur, La Union, and Isabela
+
+WEATHER CONDITION:
+Cloudy skies with scattered rains and thunderstorms
+
+CAUSED BY:
+TC ROSAL
+
+IMPACTS:
+Possible flash floods or landslides due to moderate to at times heavy rains
+
+4. PLACE:
+Visayas, Zamboanga Peninsula, Palawan, Masbate, Misamis Occidental, Camiguin, Surigao del Norte, Dinagat Islands, Basilan, and Tawi-Tawi
+
+WEATHER CONDITION:
+Cloudy skies with scattered rains and thunderstorms
+
+CAUSED BY:
+Trough of TC ROSAL
+
+IMPACTS:
+Possible flash floods or landslides due to moderate to at times heavy rains
+
+5. PLACE:
+Metro Manila and the rest of the country
+
+WEATHER CONDITION:
+Partly cloudy to cloudy skies with isolated rainshowers or thunderstorms
+
+CAUSED BY:
+Localized Thunderstorms
+
+IMPACTS:
+Possible flash floods or landslides during severe thunderstorms</description>
+            <link>https://pagasa.dost.gov.ph/weather</link>
+            <guid isPermaLink="false">pagasa-2026-10-23-1600</guid>
+            <pubDate>Fri, 23 Oct 2026 08:00:00 +0000</pubDate>
+        </item>
         
         <item>
             <title>PAGASA Daily Weather - 4:00 AM, 23 October 2026</title>
@@ -400,67 +473,6 @@ Possible flash floods or landslides during severe thunderstorms</description>
             <link>https://pagasa.dost.gov.ph/weather</link>
             <guid isPermaLink="false">pagasa-2026-10-20-1600</guid>
             <pubDate>Tue, 20 Oct 2026 08:00:00 +0000</pubDate>
-        </item>
-        
-        <item>
-            <title>PAGASA Daily Weather - 4:00 AM, 20 October 2026</title>
-            <description>[SYNOPSIS]
-
-Easterlies affecting Extreme Northern Luzon. Trough of Super Typhoon {CHAMPI} affecting the eastern sections of Southern Luzon and Visayas.
-
-
-[FORECAST WEATHER CONDITIONS]
-
-1. PLACE:
-Palawan
-
-WEATHER CONDITION:
-Cloudy skies with scattered rains and thunderstorms
-
-CAUSED BY:
-ITCZ
-
-IMPACTS:
-Possible flash floods or landslides due to moderate to at times heavy rains
-
-2. PLACE:
-Catanduanes, Northern Samar, and Eastern Samar
-
-WEATHER CONDITION:
-Cloudy skies with scattered rains and thunderstorms
-
-CAUSED BY:
-Trough of TC
-
-IMPACTS:
-Possible flash floods or landslides due to moderate to at times heavy rains
-
-3. PLACE:
-Batanes and Babuyan Islands
-
-WEATHER CONDITION:
-Partly cloudy to cloudy skies with isolated rainshowers or thunderstorms
-
-CAUSED BY:
-Easterlies
-
-IMPACTS:
-Possible flash floods or landslides during severe thunderstorms
-
-4. PLACE:
-Metro Manila and the rest of the country
-
-WEATHER CONDITION:
-Partly cloudy to cloudy skies with isolated rainshowers or thunderstorms
-
-CAUSED BY:
-Localized Thunderstorms
-
-IMPACTS:
-Possible flash floods or landslides during severe thunderstorms</description>
-            <link>https://pagasa.dost.gov.ph/weather</link>
-            <guid isPermaLink="false">pagasa-2026-10-20-0400</guid>
-            <pubDate>Mon, 19 Oct 2026 20:00:00 +0000</pubDate>
         </item>
         
 
