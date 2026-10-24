@@ -9,8 +9,57 @@
             Daily weather information from PAGASA
         </description>
 
-        <lastBuildDate>Sat, 24 Oct 2026 02:51:45 +0000</lastBuildDate>
+        <lastBuildDate>Sat, 24 Oct 2026 13:09:28 +0000</lastBuildDate>
 
+        
+        <item>
+            <title>PAGASA Daily Weather - 4:00 PM, 24 October 2026</title>
+            <description>[SYNOPSIS]
+
+Intertropical Convergence Zone (ITCZ) affecting Palawan, Visayas and Mindanao. Trough of
+
+
+[FORECAST WEATHER CONDITIONS]
+
+1. PLACE:
+Batanes, Ilocos Norte, Apayao, and Babuyan Islands
+
+WEATHER CONDITION:
+Cloudy skies with scattered rains and thunderstorms
+
+CAUSED BY:
+Trough of TC CHAMPI (Formerly ROSAL)
+
+IMPACTS:
+Possible flash floods or landslides due to moderate to at times heavy rains
+
+2. PLACE:
+Visayas, Mindanao, Sorsogon, Masbate, and Palawan
+
+WEATHER CONDITION:
+Cloudy skies with scattered rains and thunderstorms
+
+CAUSED BY:
+ITCZ
+
+IMPACTS:
+Possible flash floods or landslides due to moderate to at times heavy rains
+
+3. PLACE:
+Metro Manila and the rest of the country
+
+WEATHER CONDITION:
+Partly cloudy to cloudy skies with isolated rainshowers or thunderstorms
+
+CAUSED BY:
+Localized Thunderstorms
+
+IMPACTS:
+Possible flash floods or landslides during severe thunderstorms</description>
+            <link>https://pagasa.dost.gov.ph/weather</link>
+            <guid isPermaLink="false">pagasa-2026-10-24-1600</guid>
+            <pubDate>Sat, 24 Oct 2026 08:00:00 +0000</pubDate>
+        </item>
         
         <item>
             <title>PAGASA Daily Weather - 4:00 AM, 24 October 2026</title>
@@ -436,55 +485,6 @@ Possible flash floods or landslides during severe thunderstorms</description>
             <link>https://pagasa.dost.gov.ph/weather</link>
             <guid isPermaLink="false">pagasa-2026-10-21-1600</guid>
             <pubDate>Wed, 21 Oct 2026 08:00:00 +0000</pubDate>
-        </item>
-        
-        <item>
-            <title>PAGASA Daily Weather - 4:00 AM, 21 October 2026</title>
-            <description>[SYNOPSIS]
-
-At 3:00 AM today, the center of the eye of Super Typhoon "ROSAL" {CHAMPI} was estimated based on all available data at 1,015 km East of Northern Luzon (17.5°N, 131.3°E) with maximum sustained winds of 215 km/h near the center and gustiness of up to 265 km/h. It is moving West Northwestward at 30 km/h.
-
-
-[FORECAST WEATHER CONDITIONS]
-
-1. PLACE:
-Batanes, Ilocos Norte, Apayao, Cagayan, Isabela, and Catanduanes
-
-WEATHER CONDITION:
-Rains with gusty winds
-
-CAUSED BY:
-TC ROSAL
-
-IMPACTS:
-Possible flash floods or landslides due to moderate to at times heavy rains. Minimal to minor threat to life and property due to strong winds.
-
-2. PLACE:
-Eastern Visayas, Ilocos Sur, Quezon, and the rest of Cordillera Administrative Region, Cagayan Valley, and Bicol Region
-
-WEATHER CONDITION:
-Cloudy skies with scattered rains and thunderstorms
-
-CAUSED BY:
-TC ROSAL
-
-IMPACTS:
-Possible flash floods or landslides due to moderate to at times heavy rains
-
-3. PLACE:
-Metro Manila and the rest of the country
-
-WEATHER CONDITION:
-Partly cloudy to cloudy skies with isolated rainshowers or thunderstorms
-
-CAUSED BY:
-Localized Thunderstorms
-
-IMPACTS:
-Possible flash floods or landslides during severe thunderstorms</description>
-            <link>https://pagasa.dost.gov.ph/weather</link>
-            <guid isPermaLink="false">pagasa-2026-10-21-0400</guid>
-            <pubDate>Tue, 20 Oct 2026 20:00:00 +0000</pubDate>
         </item>
         
 
