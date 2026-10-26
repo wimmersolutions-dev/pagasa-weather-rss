@@ -9,8 +9,57 @@
             Daily weather information from PAGASA
         </description>
 
-        <lastBuildDate>Sun, 25 Oct 2026 13:36:30 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 26 Oct 2026 02:42:07 +0000</lastBuildDate>
 
+        
+        <item>
+            <title>PAGASA Daily Weather - 4:00 AM, 26 October 2026</title>
+            <description>[SYNOPSIS]
+
+Intertropical Convergence Zone (ITCZ) affecting the western section of Mindanao.
+
+
+[FORECAST WEATHER CONDITIONS]
+
+1. PLACE:
+Zamboanga Peninsula, Misamis Occidental, Basilan, and Tawi-Tawi
+
+WEATHER CONDITION:
+Cloudy skies with scattered rains and thunderstorms
+
+CAUSED BY:
+ITCZ
+
+IMPACTS:
+Possible flash floods or landslides due to moderate to at times heavy rains
+
+2. PLACE:
+Batanes and Babuyan Islands
+
+WEATHER CONDITION:
+Partly cloudy to cloudy skies with isolated light rains
+
+CAUSED BY:
+Northeasterly Windflow
+
+IMPACTS:
+No significant impact
+
+3. PLACE:
+Metro Manila and the rest of the country
+
+WEATHER CONDITION:
+Partly cloudy to cloudy skies with isolated rainshowers or thunderstorms
+
+CAUSED BY:
+Localized Thunderstorms
+
+IMPACTS:
+Possible flash floods or landslides during severe thunderstorms</description>
+            <link>https://pagasa.dost.gov.ph/weather</link>
+            <guid isPermaLink="false">pagasa-2026-10-26-0400</guid>
+            <pubDate>Sun, 25 Oct 2026 20:00:00 +0000</pubDate>
+        </item>
         
         <item>
             <title>PAGASA Daily Weather - 4:00 PM, 25 October 2026</title>
@@ -352,79 +401,6 @@ Possible flash floods or landslides during severe thunderstorms</description>
             <link>https://pagasa.dost.gov.ph/weather</link>
             <guid isPermaLink="false">pagasa-2026-10-23-0400</guid>
             <pubDate>Thu, 22 Oct 2026 20:00:00 +0000</pubDate>
-        </item>
-        
-        <item>
-            <title>PAGASA Daily Weather - 4:00 PM, 22 October 2026</title>
-            <description>[SYNOPSIS]
-
-At 3:00 PM today, the center of the eye of Typhoon "ROSAL" {CHAMPI} was estimated based on all available data at 360 km East of Itbayat, Batanes (20.9°N, 125.3°E) with maximum sustained winds of 165 km/h near the center and gustiness of up to 205 km/h. It is moving Northwestward at 15 km/h.
-
-
-[FORECAST WEATHER CONDITIONS]
-
-1. PLACE:
-Batanes
-
-WEATHER CONDITION:
-Stormy
-
-CAUSED BY:
-TC ROSAL
-
-IMPACTS:
-Possible flash floods or landslides due to heavy to at times intense rains. Minor to moderate threat to life and property due to strong winds.
-
-2. PLACE:
-Ilocos Norte, Apayao, Cagayan, and Isabela
-
-WEATHER CONDITION:
-Rains with gusty winds
-
-CAUSED BY:
-TC ROSAL
-
-IMPACTS:
-Possible flash floods or landslides due to moderate to heavy rains. Minimal to minor threat to life and property due to strong winds.
-
-3. PLACE:
-The rest of Cordillera Administrative Region, rest of Cagayan Valley, Ilocos Sur, La Union, and Aurora
-
-WEATHER CONDITION:
-Cloudy skies with scattered rains and thunderstorms
-
-CAUSED BY:
-TC ROSAL
-
-IMPACTS:
-Possible flash floods or landslides due to moderate to at times heavy rains
-
-4. PLACE:
-Bicol Region, Zamboanga Peninsula, Western Visayas, Negros Island Region, Lanao del Norte, Misamis Occidental, and Palawan
-
-WEATHER CONDITION:
-Cloudy skies with scattered rains and thunderstorms
-
-CAUSED BY:
-Trough of TC ROSAL
-
-IMPACTS:
-Possible flash floods or landslides due to moderate to at times heavy rains
-
-5. PLACE:
-Metro Manila and the rest of the country
-
-WEATHER CONDITION:
-Partly cloudy to cloudy skies with isolated rainshowers or thunderstorms
-
-CAUSED BY:
-Localized Thunderstorms
-
-IMPACTS:
-Possible flash floods or landslides during severe thunderstorms</description>
-            <link>https://pagasa.dost.gov.ph/weather</link>
-            <guid isPermaLink="false">pagasa-2026-10-22-1600</guid>
-            <pubDate>Thu, 22 Oct 2026 08:00:00 +0000</pubDate>
         </item>
         
 
