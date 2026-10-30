@@ -9,8 +9,69 @@
             Daily weather information from PAGASA
         </description>
 
-        <lastBuildDate>Fri, 30 Oct 2026 03:55:20 +0000</lastBuildDate>
+        <lastBuildDate>Fri, 30 Oct 2026 15:39:56 +0000</lastBuildDate>
 
+        
+        <item>
+            <title>PAGASA Daily Weather - 4:00 PM, 30 October 2026</title>
+            <description>[SYNOPSIS]
+
+At 3:00 PM today, the Low Pressure Area (LPA) was estimated based on all available data at 475 km East of Borongan City, Eastern Samar (11.8°N, 129.8°E). Shear Line affecting the eastern sections of Northern and Central Luzon. Northeast Monsoon affecting the rest of Northern Luzon.
+
+
+[FORECAST WEATHER CONDITIONS]
+
+1. PLACE:
+Cagayan, Isabela, Aurora, and Quezon
+
+WEATHER CONDITION:
+Cloudy skies with scattered rains and isolated thunderstorms
+
+CAUSED BY:
+Shear Line
+
+IMPACTS:
+Possible flash floods or landslides due to moderate to at times heavy rains
+
+2. PLACE:
+Visayas, Mindanao, and Palawan
+
+WEATHER CONDITION:
+Cloudy skies with scattered rains and thunderstorms
+
+CAUSED BY:
+LPA
+
+IMPACTS:
+Possible flash floods or landslides due to moderate to at times heavy rains
+
+3. PLACE:
+Ilocos Region, Cordillera Administrative Region, and the rest of Cagayan Valley
+
+WEATHER CONDITION:
+Partly cloudy to cloudy skies with isolated light rains
+
+CAUSED BY:
+Northeast Monsoon
+
+IMPACTS:
+No significant impact
+
+4. PLACE:
+Metro Manila and the rest of Luzon
+
+WEATHER CONDITION:
+Partly cloudy to cloudy skies with isolated rainshowers or thunderstorms
+
+CAUSED BY:
+Localized Thunderstorms
+
+IMPACTS:
+Possible flash floods or landslides during severe thunderstorms</description>
+            <link>https://pagasa.dost.gov.ph/weather</link>
+            <guid isPermaLink="false">pagasa-2026-10-30-1600</guid>
+            <pubDate>Fri, 30 Oct 2026 08:00:00 +0000</pubDate>
+        </item>
         
         <item>
             <title>PAGASA Daily Weather - 4:00 AM, 30 October 2026</title>
@@ -376,55 +437,6 @@ Possible flash floods or landslides during severe thunderstorms</description>
             <link>https://pagasa.dost.gov.ph/weather</link>
             <guid isPermaLink="false">pagasa-2026-10-27-1600</guid>
             <pubDate>Tue, 27 Oct 2026 08:00:00 +0000</pubDate>
-        </item>
-        
-        <item>
-            <title>PAGASA Daily Weather - 4:00 AM, 27 October 2026</title>
-            <description>[SYNOPSIS]
-
-Northeasterly Windflow affecting Northern Luzon.
-
-
-[FORECAST WEATHER CONDITIONS]
-
-1. PLACE:
-Batanes, Cagayan, and Isabela
-
-WEATHER CONDITION:
-Cloudy skies with light rains
-
-CAUSED BY:
-Northeasterly Windflow
-
-IMPACTS:
-No significant impact
-
-2. PLACE:
-Ilocos Region, Cordillera Administrative Region, and the rest of Cagayan Valley
-
-WEATHER CONDITION:
-Partly cloudy to cloudy skies with isolated light rains
-
-CAUSED BY:
-Northeasterly Windflow
-
-IMPACTS:
-No significant impact
-
-3. PLACE:
-Metro Manila and the rest of the country
-
-WEATHER CONDITION:
-Partly cloudy to cloudy skies with isolated rainshowers or thunderstorms
-
-CAUSED BY:
-Localized Thunderstorms
-
-IMPACTS:
-Possible flash floods or landslides during severe thunderstorms</description>
-            <link>https://pagasa.dost.gov.ph/weather</link>
-            <guid isPermaLink="false">pagasa-2026-10-27-0400</guid>
-            <pubDate>Mon, 26 Oct 2026 20:00:00 +0000</pubDate>
         </item>
         
 
