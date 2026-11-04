@@ -9,8 +9,69 @@
             Daily weather information from PAGASA
         </description>
 
-        <lastBuildDate>Tue, 03 Nov 2026 16:52:19 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 04 Nov 2026 04:24:19 +0000</lastBuildDate>
 
+        
+        <item>
+            <title>PAGASA Daily Weather - 4:00 AM, 04 November 2026</title>
+            <description>[SYNOPSIS]
+
+Northeast Monsoon affecting Northern Luzon.
+
+
+[FORECAST WEATHER CONDITIONS]
+
+1. PLACE:
+Quezon, Camarines Norte, Camarines Sur, and Catanduanes
+
+WEATHER CONDITION:
+Cloudy skies with scattered rains and thunderstorms
+
+CAUSED BY:
+Easterlies
+
+IMPACTS:
+Possible flash floods or landslides due to moderate to at times heavy rains
+
+2. PLACE:
+Ilocos Region, Cordillera Administrative Region, and Cagayan Valley
+
+WEATHER CONDITION:
+Partly cloudy to cloudy skies with isolated light rains
+
+CAUSED BY:
+Northeast Monsoon
+
+IMPACTS:
+No significant impact
+
+3. PLACE:
+Metro Manila, Visayas, and the rest of Luzon
+
+WEATHER CONDITION:
+Partly cloudy to cloudy skies with isolated rainshowers or thunderstorms
+
+CAUSED BY:
+Easterlies
+
+IMPACTS:
+Possible flash floods or landslides during severe thunderstorms
+
+4. PLACE:
+Mindanao
+
+WEATHER CONDITION:
+Partly cloudy to cloudy skies with isolated rainshowers or thunderstorms
+
+CAUSED BY:
+Localized Thunderstorms
+
+IMPACTS:
+Possible flash floods or landslides during severe thunderstorms</description>
+            <link>https://pagasa.dost.gov.ph/weather</link>
+            <guid isPermaLink="false">pagasa-2026-11-04-0400</guid>
+            <pubDate>Tue, 03 Nov 2026 20:00:00 +0000</pubDate>
+        </item>
         
         <item>
             <title>PAGASA Daily Weather - 4:00 PM, 03 November 2026</title>
@@ -280,67 +341,6 @@ Possible flash floods or landslides during severe thunderstorms</description>
             <link>https://pagasa.dost.gov.ph/weather</link>
             <guid isPermaLink="false">pagasa-2026-11-01-0400</guid>
             <pubDate>Sat, 31 Oct 2026 20:00:00 +0000</pubDate>
-        </item>
-        
-        <item>
-            <title>PAGASA Daily Weather - 4:00 PM, 31 October 2026</title>
-            <description>[SYNOPSIS]
-
-At 3:00 PM today, the Low Pressure Area (LPA) was estimated based on all available data at 325 km East of Catarman, Northern Samar (12.1°N, 127.6°E). Shear Line affecting the eastern sections of Northern and Central Luzon. Northeast Monsoon affecting the rest of Northern Luzon.
-
-
-[FORECAST WEATHER CONDITIONS]
-
-1. PLACE:
-Cagayan, Isabela, Aurora, and Quezon
-
-WEATHER CONDITION:
-Cloudy skies with scattered rains and isolated thunderstorms
-
-CAUSED BY:
-Shear Line
-
-IMPACTS:
-Possible flash floods or landslides due to moderate to at times heavy rains
-
-2. PLACE:
-Visayas, Bicol Region, Caraga, Northern Mindanao, Zamboanga Peninsula, and Palawan
-
-WEATHER CONDITION:
-Cloudy skies with scattered rains and thunderstorms
-
-CAUSED BY:
-LPA
-
-IMPACTS:
-Possible flash floods or landslides due to moderate to at times heavy rains
-
-3. PLACE:
-Ilocos Region, Cordillera Administrative Region, and the rest of Cagayan Valley
-
-WEATHER CONDITION:
-Partly cloudy to cloudy skies with isolated light rains
-
-CAUSED BY:
-Northeast Monsoon
-
-IMPACTS:
-No significant impact
-
-4. PLACE:
-Metro Manila and the rest of the country
-
-WEATHER CONDITION:
-Partly cloudy to cloudy skies with isolated rainshowers or thunderstorms
-
-CAUSED BY:
-Localized Thunderstorms
-
-IMPACTS:
-Possible flash floods or landslides during severe thunderstorms</description>
-            <link>https://pagasa.dost.gov.ph/weather</link>
-            <guid isPermaLink="false">pagasa-2026-10-31-1600</guid>
-            <pubDate>Sat, 31 Oct 2026 08:00:00 +0000</pubDate>
         </item>
         
 
