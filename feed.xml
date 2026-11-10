@@ -9,8 +9,81 @@
             Daily weather information from PAGASA
         </description>
 
-        <lastBuildDate>Mon, 09 Nov 2026 19:35:28 +0000</lastBuildDate>
+        <lastBuildDate>Tue, 10 Nov 2026 05:36:17 +0000</lastBuildDate>
 
+        
+        <item>
+            <title>PAGASA Daily Weather - 4:00 AM, 10 November 2026</title>
+            <description>[SYNOPSIS]
+
+Northeast Monsoon affecting Luzon. Easterlies affecting the rest of the country.
+
+
+[FORECAST WEATHER CONDITIONS]
+
+1. PLACE:
+Caraga, Davao Region, Eastern Samar, Southern Leyte, Bohol, Misamis Oriental, and Camiguin
+
+WEATHER CONDITION:
+Cloudy skies with scattered rains and thunderstorms
+
+CAUSED BY:
+Easterlies
+
+IMPACTS:
+Possible flash floods or landslides due to moderate to at times heavy rains
+
+2. PLACE:
+Aurora, Quezon, and Camarines Norte
+
+WEATHER CONDITION:
+Cloudy skies with rains
+
+CAUSED BY:
+Northeast Monsoon
+
+IMPACTS:
+Possible flash floods or landslides due to moderate to at times heavy rains
+
+3. PLACE:
+Cagayan Valley and Cordillera Administrative Region
+
+WEATHER CONDITION:
+Cloudy skies with light rains
+
+CAUSED BY:
+Northeast Monsoon
+
+IMPACTS:
+No significant impact
+
+4. PLACE:
+Metro Manila and the rest of Luzon
+
+WEATHER CONDITION:
+Partly cloudy to cloudy skies with isolated light rains
+
+CAUSED BY:
+Northeast Monsoon
+
+IMPACTS:
+No significant impact
+
+5. PLACE:
+The rest of the country
+
+WEATHER CONDITION:
+Partly cloudy to cloudy skies with isolated rainshowers or thunderstorms
+
+CAUSED BY:
+Easterlies
+
+IMPACTS:
+Possible flash floods or landslides during severe thunderstorms</description>
+            <link>https://pagasa.dost.gov.ph/weather</link>
+            <guid isPermaLink="false">pagasa-2026-11-10-0400</guid>
+            <pubDate>Mon, 09 Nov 2026 20:00:00 +0000</pubDate>
+        </item>
         
         <item>
             <title>PAGASA Daily Weather - 4:00 PM, 09 November 2026</title>
@@ -412,67 +485,6 @@ Possible flash floods or landslides during severe thunderstorms</description>
             <link>https://pagasa.dost.gov.ph/weather</link>
             <guid isPermaLink="false">pagasa-2026-11-07-0400</guid>
             <pubDate>Fri, 06 Nov 2026 20:00:00 +0000</pubDate>
-        </item>
-        
-        <item>
-            <title>PAGASA Daily Weather - 4:00 PM, 06 November 2026</title>
-            <description>[SYNOPSIS]
-
-Northeast Monsoon affecting Northern Luzon. Easterlies affecting the rest of the country.
-
-
-[FORECAST WEATHER CONDITIONS]
-
-1. PLACE:
-Bicol Region, Eastern Visayas, Caraga, Quezon, Marinduque, Oriental Mindoro, and Davao Oriental
-
-WEATHER CONDITION:
-Cloudy skies with scattered rains and thunderstorms
-
-CAUSED BY:
-Easterlies
-
-IMPACTS:
-Possible flash floods or landslides due to moderate to at times heavy rains
-
-2. PLACE:
-Cagayan Valley, Apayao, Kalinga, Mountain Province, Ifugao, and Aurora
-
-WEATHER CONDITION:
-Cloudy skies with light rains
-
-CAUSED BY:
-Northeast Monsoon
-
-IMPACTS:
-No significant impact
-
-3. PLACE:
-Ilocos Region and the rest of Cordillera Administrative Region
-
-WEATHER CONDITION:
-Partly cloudy to cloudy skies with isolated light rains
-
-CAUSED BY:
-Northeast Monsoon
-
-IMPACTS:
-No significant impact
-
-4. PLACE:
-Metro Manila and the rest of the country
-
-WEATHER CONDITION:
-Partly cloudy to cloudy skies with isolated rainshowers or thunderstorms
-
-CAUSED BY:
-Easterlies
-
-IMPACTS:
-Possible flash floods or landslides during severe thunderstorms</description>
-            <link>https://pagasa.dost.gov.ph/weather</link>
-            <guid isPermaLink="false">pagasa-2026-11-06-1600</guid>
-            <pubDate>Fri, 06 Nov 2026 08:00:00 +0000</pubDate>
         </item>
         
 
