@@ -9,8 +9,33 @@
             Daily weather information from PAGASA
         </description>
 
-        <lastBuildDate>Mon, 16 Nov 2026 19:22:11 +0000</lastBuildDate>
+        <lastBuildDate>Tue, 17 Nov 2026 06:01:40 +0000</lastBuildDate>
 
+        
+        <item>
+            <title>PAGASA Daily Weather - 4:00 AM, 17 November 2026</title>
+            <description>[SYNOPSIS]
+
+Easterlies affecting the country.
+
+
+[FORECAST WEATHER CONDITIONS]
+
+1. PLACE:
+Metro Manila and the rest of the country
+
+WEATHER CONDITION:
+Partly cloudy to cloudy skies with isolated rainshowers or thunderstorms
+
+CAUSED BY:
+Easterlies
+
+IMPACTS:
+Possible flash floods or landslides during severe thunderstorms</description>
+            <link>https://pagasa.dost.gov.ph/weather</link>
+            <guid isPermaLink="false">pagasa-2026-11-17-0400</guid>
+            <pubDate>Mon, 16 Nov 2026 20:00:00 +0000</pubDate>
+        </item>
         
         <item>
             <title>PAGASA Daily Weather - 4:00 PM, 16 November 2026</title>
@@ -256,55 +281,6 @@ Possible flash floods or landslides during severe thunderstorms</description>
             <link>https://pagasa.dost.gov.ph/weather</link>
             <guid isPermaLink="false">pagasa-2026-11-14-0400</guid>
             <pubDate>Fri, 13 Nov 2026 20:00:00 +0000</pubDate>
-        </item>
-        
-        <item>
-            <title>PAGASA Daily Weather - 4:00 PM, 13 November 2026</title>
-            <description>[SYNOPSIS]
-
-Northeast Monsoon affecting Extreme Northern Luzon. Easterlies affecting the rest of the country.
-
-
-[FORECAST WEATHER CONDITIONS]
-
-1. PLACE:
-Eastern Visayas, Northern Mindanao, Caraga, Davao Region, SOCCSKSARGEN, BARMM, Albay, Sorsogon, and Catanduanes
-
-WEATHER CONDITION:
-Cloudy skies with scattered rains and thunderstorms
-
-CAUSED BY:
-Easterlies
-
-IMPACTS:
-Possible flash floods or landslides due to moderate to at times heavy rains
-
-2. PLACE:
-Batanes
-
-WEATHER CONDITION:
-Partly cloudy to cloudy skies with isolated light rains
-
-CAUSED BY:
-Northeast Monsoon
-
-IMPACTS:
-No significant impact
-
-3. PLACE:
-Metro Manila and the rest of the country
-
-WEATHER CONDITION:
-Partly cloudy to cloudy skies with isolated rainshowers or thunderstorms
-
-CAUSED BY:
-Easterlies
-
-IMPACTS:
-Possible flash floods or landslides during severe thunderstorms</description>
-            <link>https://pagasa.dost.gov.ph/weather</link>
-            <guid isPermaLink="false">pagasa-2026-11-13-1600</guid>
-            <pubDate>Fri, 13 Nov 2026 08:00:00 +0000</pubDate>
         </item>
         
 
