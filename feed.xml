@@ -9,8 +9,105 @@
             Daily weather information from PAGASA
         </description>
 
-        <lastBuildDate>Sat, 21 Nov 2026 05:09:16 +0000</lastBuildDate>
+        <lastBuildDate>Sat, 21 Nov 2026 16:38:56 +0000</lastBuildDate>
 
+        
+        <item>
+            <title>PAGASA Daily Weather - 4:00 PM, 21 November 2026</title>
+            <description>[SYNOPSIS]
+
+Shear Line affecting the eastern sections of Northern and Central Luzon. Northeast Monsoon affecting the rest of Northern Luzon. Intertropical Convergence Zone (ITCZ) affecting Mindanao.
+
+
+[FORECAST WEATHER CONDITIONS]
+
+1. PLACE:
+Mainland Cagayan, Isabela, Nueva Vizcaya, Quirino, and Aurora
+
+WEATHER CONDITION:
+Cloudy skies with scattered rains and isolated thunderstorms
+
+CAUSED BY:
+Shear Line
+
+IMPACTS:
+Possible flash floods or landslides due to moderate to heavy rains
+
+2. PLACE:
+Caraga and Davao Region
+
+WEATHER CONDITION:
+Cloudy skies with scattered rains and thunderstorms
+
+CAUSED BY:
+ITCZ
+
+IMPACTS:
+Possible flash floods or landslides due to moderate to at times heavy rains
+
+3. PLACE:
+Quezon
+
+WEATHER CONDITION:
+Cloudy skies with scattered rains and thunderstorms
+
+CAUSED BY:
+Easterlies
+
+IMPACTS:
+Possible flash floods or landslides due to moderate to at times heavy rains
+
+4. PLACE:
+The rest of Cagayan Valley and the rest of Cordillera Administrative Region
+
+WEATHER CONDITION:
+Cloudy skies with rains
+
+CAUSED BY:
+Northeast Monsoon
+
+IMPACTS:
+Possible flash floods or landslides due to moderate to at times heavy rains
+
+5. PLACE:
+Ilocos Region
+
+WEATHER CONDITION:
+Partly cloudy to cloudy skies with isolated light rains
+
+CAUSED BY:
+Northeast Monsoon
+
+IMPACTS:
+No significant impact
+
+6. PLACE:
+Palawan and the rest of Mindanao
+
+WEATHER CONDITION:
+Partly cloudy to cloudy skies with isolated rainshowers or thunderstorms
+
+CAUSED BY:
+ITCZ
+
+IMPACTS:
+Possible flash floods or landslides during severe thunderstorms
+
+7. PLACE:
+Metro Manila and the rest of the country
+
+WEATHER CONDITION:
+Partly cloudy to cloudy skies with isolated rainshowers or thunderstorms
+
+CAUSED BY:
+Easterlies
+
+IMPACTS:
+Possible flash floods or landslides during severe thunderstorms</description>
+            <link>https://pagasa.dost.gov.ph/weather</link>
+            <guid isPermaLink="false">pagasa-2026-11-21-1600</guid>
+            <pubDate>Sat, 21 Nov 2026 08:00:00 +0000</pubDate>
+        </item>
         
         <item>
             <title>PAGASA Daily Weather - 4:00 AM, 21 November 2026</title>
@@ -484,55 +581,6 @@ Possible flash floods or landslides during severe thunderstorms</description>
             <link>https://pagasa.dost.gov.ph/weather</link>
             <guid isPermaLink="false">pagasa-2026-11-18-1600</guid>
             <pubDate>Wed, 18 Nov 2026 08:00:00 +0000</pubDate>
-        </item>
-        
-        <item>
-            <title>PAGASA Daily Weather - 4:00 AM, 18 November 2026</title>
-            <description>[SYNOPSIS]
-
-Easterlies affecting the country.
-
-
-[FORECAST WEATHER CONDITIONS]
-
-1. PLACE:
-Quezon, Camarines Norte, Dinagat Islands, Surigao del Norte, Surigao del Sur, and Davao Oriental
-
-WEATHER CONDITION:
-Cloudy skies with scattered rains and thunderstorms
-
-CAUSED BY:
-Easterlies
-
-IMPACTS:
-Possible flash floods or landslides during moderate to at times heavy rains
-
-2. PLACE:
-Batanes and Babuyan Islands
-
-WEATHER CONDITION:
-Partly cloudy to cloudy skies with isolated light rains
-
-CAUSED BY:
-Northeast Monsoon
-
-IMPACTS:
-No Significant impact
-
-3. PLACE:
-Metro Manila and the rest of the country
-
-WEATHER CONDITION:
-Partly cloudy to cloudy skies with isolated rainshowers or thunderstorms
-
-CAUSED BY:
-Easterlies
-
-IMPACTS:
-Possible flash floods or landslides during severe thunderstorms</description>
-            <link>https://pagasa.dost.gov.ph/weather</link>
-            <guid isPermaLink="false">pagasa-2026-11-18-0400</guid>
-            <pubDate>Tue, 17 Nov 2026 20:00:00 +0000</pubDate>
         </item>
         
 
