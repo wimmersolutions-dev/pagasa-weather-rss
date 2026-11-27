@@ -9,8 +9,45 @@
             Daily weather information from PAGASA
         </description>
 
-        <lastBuildDate>Fri, 27 Nov 2026 06:11:59 +0000</lastBuildDate>
+        <lastBuildDate>Fri, 27 Nov 2026 18:43:52 +0000</lastBuildDate>
 
+        
+        <item>
+            <title>PAGASA Daily Weather - 4:00 PM, 27 November 2026</title>
+            <description>[SYNOPSIS]
+
+Shear Line affecting Extreme Northern Luzon. Easterlies affecting the rest of the country.
+
+
+[FORECAST WEATHER CONDITIONS]
+
+1. PLACE:
+Batanes
+
+WEATHER CONDITION:
+Cloudy skies with scattered rains and isolated thunderstorms
+
+CAUSED BY:
+Shear Line
+
+IMPACTS:
+Possible flash floods or landslides due to moderate to at times heavy rains
+
+2. PLACE:
+Metro Manila and the rest of the country
+
+WEATHER CONDITION:
+Partly cloudy to cloudy skies with isolated rainshowers or thunderstorms
+
+CAUSED BY:
+Easterlies
+
+IMPACTS:
+Possible flash floods or landslides during severe thunderstorms</description>
+            <link>https://pagasa.dost.gov.ph/weather</link>
+            <guid isPermaLink="false">pagasa-2026-11-27-1600</guid>
+            <pubDate>Fri, 27 Nov 2026 08:00:00 +0000</pubDate>
+        </item>
         
         <item>
             <title>PAGASA Daily Weather - 4:00 AM, 27 November 2026</title>
@@ -388,67 +425,6 @@ Possible flash floods or landslides during severe thunderstorms</description>
             <link>https://pagasa.dost.gov.ph/weather</link>
             <guid isPermaLink="false">pagasa-2026-11-24-1600</guid>
             <pubDate>Tue, 24 Nov 2026 08:00:00 +0000</pubDate>
-        </item>
-        
-        <item>
-            <title>PAGASA Daily Weather - 4:00 AM, 24 November 2026</title>
-            <description>[SYNOPSIS]
-
-Shear Line affecting the eastern section of Northern Luzon. Northeast Monsoon affecting Extreme Northern Luzon. Intertropical Convergence Zone (ITCZ) affecting the western section of Mindanao.
-
-
-[FORECAST WEATHER CONDITIONS]
-
-1. PLACE:
-Mainland Cagayan and Isabela
-
-WEATHER CONDITION:
-Cloudy skies with scattered rains and isolated thunderstorms
-
-CAUSED BY:
-Shear Line
-
-IMPACTS:
-Possible flash floods or landslides due to moderate to at times heavy rains
-
-2. PLACE:
-Zamboanga Peninsula, Palawan, Basilan, and Tawi-Tawi
-
-WEATHER CONDITION:
-Cloudy skies with scattered rains and thunderstorms
-
-CAUSED BY:
-ITCZ
-
-IMPACTS:
-Possible flash floods or landslides due to moderate to at times heavy rains
-
-3. PLACE:
-Batanes, Babuyan Islands, Ilocos Norte, and Apayao
-
-WEATHER CONDITION:
-Partly cloudy to cloudy skies with isolated light rains
-
-CAUSED BY:
-Northeast Monsoon
-
-IMPACTS:
-No significant impact
-
-4. PLACE:
-Metro Manila and the rest of the country
-
-WEATHER CONDITION:
-Partly cloudy to cloudy skies with isolated rainshowers or thunderstorms
-
-CAUSED BY:
-Easterlies
-
-IMPACTS:
-Possible flash floods or landslides during severe thunderstorms</description>
-            <link>https://pagasa.dost.gov.ph/weather</link>
-            <guid isPermaLink="false">pagasa-2026-11-24-0400</guid>
-            <pubDate>Mon, 23 Nov 2026 20:00:00 +0000</pubDate>
         </item>
         
 
